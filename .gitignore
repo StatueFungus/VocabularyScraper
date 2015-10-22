@@ -1,0 +1,12 @@
+# Scrapy .idea
+
+/.idea/.name
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/VocabularyScraper.iml
+/.idea/workspace.xml
+/.idea
+
+# OS X
+.DS_Store
