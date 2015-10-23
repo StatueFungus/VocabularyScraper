@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import os
+import os, scrapy
 from exporters import XmlVocabularyListItemExporter
+
 
 __author__ = 'benediktsuessmann'
 
@@ -30,3 +31,31 @@ class XmlExportPipeline(object):
             f.close()
 
         return item
+
+
+class ItemStripPipeline(object):
+
+    def process_item(self, item, spider=None):
+        for key in item.keys():
+            item[key] = self._get_sripped_value(item[key])
+
+        return item
+
+    def _get_sripped_value(self, value):
+        if isinstance(value, scrapy.Item):
+            return self.process_item(value)
+
+        if hasattr(value, 'items'):
+            new_dict = {}
+            for k, v in value.items():
+                new_dict[k] = self._get_sripped_value(v)
+            return new_dict
+        elif hasattr(value, '__iter__'):
+            new_list = []
+
+            for k in value:
+                new_list.append(self._get_sripped_value(k))
+
+            return new_list
+        else:
+            return value.strip()

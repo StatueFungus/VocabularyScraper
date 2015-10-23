@@ -62,7 +62,8 @@ NEWSPIDER_MODULE = 'VocabularyScraper.spiders'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'VocabularyScraper.pipelines.XmlExportPipeline': 300,
+    'VocabularyScraper.pipelines.ItemStripPipeline': 1,
+    'VocabularyScraper.pipelines.XmlExportPipeline': 2
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

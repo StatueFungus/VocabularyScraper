@@ -34,7 +34,6 @@ class XmlVocabularyListItemExporter(XmlItemExporter):
             for subname, value in serialized_value.items():
                 self._export_xml_field(subname, value)
         elif hasattr(serialized_value, '__iter__'):
-            logging.warning(name)
             for value in serialized_value:
                 self._export_xml_field('value', value)
         else:
