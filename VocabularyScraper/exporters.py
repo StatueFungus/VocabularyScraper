@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import logging
 import scrapy
 from scrapy.exporters import XmlItemExporter

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import sys
 from exporters import XmlVocabularyListItemExporter
 
 __author__ = 'benediktsuessmann'

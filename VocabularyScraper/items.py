@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Define here the models for your scraped items
-#
-# See documentation in:
-# http://doc.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 
@@ -14,6 +9,18 @@ class VocabularyList(scrapy.Item):
     language = scrapy.Field()
     topic = scrapy.Field()
     description = scrapy.Field()
+    vocabularies = scrapy.Field()
+
+
+class WordPool(scrapy.Item):
+    xml_element_name = 'wordpool'
+    name = scrapy.Field()
+    vocabularygroups = scrapy.Field()
+
+
+class VocabularyGroup(scrapy.Item):
+    xml_element_name = 'vocabularygroup'
+    number = scrapy.Field()
     vocabularies = scrapy.Field()
 
 

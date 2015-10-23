@@ -5,10 +5,13 @@
       <w>inhalt</w>
       <w>subname</w>
       <w>tbody</w>
+      <w>vocabularygroup</w>
+      <w>vocabularygroups</w>
       <w>vocabularylist</w>
       <w>vocabularylists</w>
       <w>vocabularyspider</w>
       <w>vokabeln</w>
+      <w>wordpool</w>
     </words>
   </dictionary>
 </component>
