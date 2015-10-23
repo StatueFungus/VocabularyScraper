@@ -6,3 +6,7 @@ workspace.xml
 
 # Python
 *.pyc
+
+# Output
+/output
+
