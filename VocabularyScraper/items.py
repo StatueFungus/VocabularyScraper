@@ -8,7 +8,15 @@
 import scrapy
 
 
-class TmpItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class VocabularyList(scrapy.Item):
+
+    category = scrapy.Field()
+    language = scrapy.Field()
+    topic = scrapy.Field()
+    description = scrapy.Field()
+    vocabularies = scrapy.Field()
+
+
+class Vocabulary(scrapy.Item):
+    language1 = scrapy.Field()
+    language2 = scrapy.Field()

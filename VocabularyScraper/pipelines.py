@@ -1,11 +1,19 @@
 # -*- coding: utf-8 -*-
 
-# Define your item pipelines here
-#
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+from scrapy.exporters import XmlItemExporter
 
+__author__ = 'benediktsuessmann'
 
-class TmpPipeline(object):
-    def process_item(self, item, spider):
+class XmlExportPipeline(object):
+
+    def process_item(self, item , spider):
+
+        file = open('%s_%s.xml' % (item['category'], item['topic']), 'w+b')
+        self.exporter = XmlItemExporter(file)
+        self.exporter.start_exporting()
+        self.exporter.export_item(item)
+        self.exporter.finish_exporting()
+        file.close()
+
         return item
+

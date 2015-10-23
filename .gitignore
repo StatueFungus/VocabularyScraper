@@ -1,12 +1,8 @@
-# Scrapy .idea
-
-.name
-misc.xml
-modules.xml
-vcs.xml
-VocabularyScraper.iml
+#  .idea
 workspace.xml
-/.idea
 
 # OS X
 .DS_Store
+
+# Python
+*.pyc
