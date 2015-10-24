@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import logging
 import scrapy
 from scrapy.exporters import XmlItemExporter
 
@@ -23,7 +22,6 @@ class XmlVocabularyListItemExporter(XmlItemExporter):
 
     def _export_xml_field(self, name, serialized_value):
         if isinstance(serialized_value, scrapy.Item):
-            logging.warning(name)
             self.export_item(serialized_value)
 
             return
@@ -35,7 +33,7 @@ class XmlVocabularyListItemExporter(XmlItemExporter):
                 self._export_xml_field(subname, value)
         elif hasattr(serialized_value, '__iter__'):
             for value in serialized_value:
-                self._export_xml_field('value', value)
+                self._export_xml_field('list_item', value)
         else:
             self._xg_characters(serialized_value)
         self.xg.endElement(name)

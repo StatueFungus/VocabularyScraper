@@ -1,28 +1,26 @@
 # -*- coding: utf-8 -*-
 
-import os, scrapy
-from exporters import XmlVocabularyListItemExporter
+import os
+import scrapy
 
+from exporters import XmlVocabularyListItemExporter
 
 __author__ = 'benediktsuessmann'
 
 
 class XmlExportPipeline(object):
-
     def process_item(self, item, spider):
-
         category = item['category']
         language = item['language']
-        topic = item['topic']
 
         base_path = "output"
+        topic = item['topic']
         file_path = '%s/%s/%s/%s.xml' % (base_path, category, language, topic)
 
         if not os.path.exists(os.path.dirname(file_path)):
             os.makedirs(os.path.dirname(file_path))
 
         with open(file_path, 'w+b') as f:
-
             self.exporter = XmlVocabularyListItemExporter(f, item_element='vocabularylist',
                                                           root_element='vocabularylists')
             self.exporter.start_exporting()
@@ -34,7 +32,6 @@ class XmlExportPipeline(object):
 
 
 class ItemStripPipeline(object):
-
     def process_item(self, item, spider=None):
         for key in item.keys():
             item[key] = self._get_sripped_value(item[key])
@@ -58,4 +55,14 @@ class ItemStripPipeline(object):
 
             return new_list
         else:
-            return value.strip()
+            return self._clean_up_value(value)
+
+    def _clean_up_value(self, value):
+        new_value = value
+
+        if type(new_value) is str or type(new_value) is unicode:
+            new_value = new_value.strip()
+        else:
+            new_value = unicode(new_value).strip()
+
+        return new_value

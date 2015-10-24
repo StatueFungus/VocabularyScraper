@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 
+from collections import OrderedDict
+
 import scrapy
-from VocabularyScraper.items import VocabularyList, Vocabulary
+
+from VocabularyScraper.items import VocabularyList, WordPool, VocabularyGroup, Vocabulary
 
 __author__ = 'benediktsuessmann'
 
@@ -14,7 +17,7 @@ class VocabularySpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)]')
+        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)][1]')
 
         for category in categories:
             anchor = category.xpath('td[1]//a')
@@ -55,18 +58,27 @@ class VocabularySpider(scrapy.Spider):
         vocabulary_groups = page_content.xpath('table[position() > 3]')
         description = self._get_list_description(description_table, response.meta['language'], response.meta['topic'])
 
+        word_pools = OrderedDict()
+        for vocabulary_group in vocabulary_groups:
+            word_pool = self._get_word_pool(vocabulary_group)
+            vocabulary_group_item = self._get_vocabulary_group_item(vocabulary_group)
+
+            if word_pool not in word_pools:
+                word_pools[word_pool] = WordPool(name=word_pool, vocabularygroups=[])
+
+            word_pools[word_pool]['vocabularygroups'].append(vocabulary_group_item)
+
         vocabulary_list = VocabularyList()
         vocabulary_list['category'] = response.meta['category']
         vocabulary_list['language'] = response.meta['language']
         vocabulary_list['topic'] = response.meta['topic']
         vocabulary_list['description'] = description
-        vocabulary_list['vocabularies'] = []
-
-        vocabulary_list['vocabularies'].append(Vocabulary(language1="Englisch", language2="Deutsch"))
+        vocabulary_list['word_pools'] = word_pools.values()
 
         return vocabulary_list
 
     def _get_list_description(self, table, language, topic):
+
         if not table:
             return None
 
@@ -77,3 +89,37 @@ class VocabularySpider(scrapy.Spider):
                 description = row.xpath('td[2]/text()').extract_first()
 
         return description
+
+    def _get_word_pool(self, vocabulary_group):
+        vocabulary_group_header = self._get_vocabulary_group_header(vocabulary_group)
+
+        word_pool = "Basiswortschatz"
+        return word_pool
+
+    def _get_vocabulary_group_item(self, vocabulary_group):
+
+        group_item = VocabularyGroup()
+        group_item['number'] = 1
+        vocabularies = group_item['vocabularies'] = []
+        vocabulary_group_body = self._get_vocabulary_group_body(vocabulary_group)
+
+        for row in vocabulary_group_body:
+            vocabularies.append(Vocabulary(language1="syv", language2="sieben"))
+
+        return group_item
+
+    def _get_vocabulary_group_header(self, vocabulary_group):
+        """
+        returns the tr-element of the vocabulary-group with class='header'
+        :param vocabulary_group:
+        :return:
+        """
+        return vocabulary_group.xpath('tbody/tr[@class="header"]')
+
+    def _get_vocabulary_group_body(self, vocabulary_group):
+        """
+        returns every tr-element of the vocabulary-group except the first (header)
+        :param vocabulary_group:
+        :return:
+        """
+        return vocabulary_group.xpath('tbody/tr[not(@class="header")]')
