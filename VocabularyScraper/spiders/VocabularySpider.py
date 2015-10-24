@@ -17,7 +17,7 @@ class VocabularySpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)][1]')
+        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)]')
 
         for category in categories:
             anchor = category.xpath('td[1]//a')
@@ -33,7 +33,7 @@ class VocabularySpider(scrapy.Spider):
         category = response.meta['category']
 
         vocabulary_lists = response.xpath(
-            '//div[@id="col3_content"]/table[2]/tbody/tr[not(@class)][position() < last()]')
+            '//div[@id="col3_content"]/table[2]/tbody/tr[not(@class)][position() < last()][1]')
 
         for vocabulary_list in vocabulary_lists:
             anchor = vocabulary_list.xpath('td[last()]//a[last()]')
@@ -104,9 +104,24 @@ class VocabularySpider(scrapy.Spider):
         vocabulary_group_body = self._get_vocabulary_group_body(vocabulary_group)
 
         for row in vocabulary_group_body:
-            vocabularies.append(Vocabulary(language1="syv", language2="sieben"))
+            vocabulary = self._get_vocabulary_item(row)
+            vocabularies.append(vocabulary)
 
         return group_item
+
+    def _get_vocabulary_item(self, row):
+        vocabulary = Vocabulary()
+
+        col1 = row.xpath('td[1]//text()').extract()
+        col2 = row.xpath('td[2]//text()').extract()
+
+        vocabulary['language1'] = col1[0]
+        vocabulary['language1_description'] = "\n".join(col1[1:])
+
+        vocabulary['language2'] = col2[0]
+        vocabulary['language2_description'] = "\n".join(col2[1:])
+
+        return vocabulary
 
     def _get_vocabulary_group_header(self, vocabulary_group):
         """

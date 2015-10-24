@@ -4,7 +4,7 @@ from collections import OrderedDict
 
 import six
 import scrapy
-from scrapy.item import DictItem, ItemMeta, Item
+from scrapy.item import ItemMeta, Item
 
 __author__ = 'benediktsuessmann'
 
@@ -63,4 +63,6 @@ class Vocabulary(SortedItem):
     """
     xml_element_name = 'vocabulary'
     language1 = scrapy.Field()
+    language1_description = scrapy.Field()
     language2 = scrapy.Field()
+    language2_description = scrapy.Field()
