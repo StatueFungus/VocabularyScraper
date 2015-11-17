@@ -4,14 +4,27 @@ import os
 import scrapy
 
 from exporters import XmlVocabularyListItemExporter
+from scrapy.exceptions import DropItem
 
 __author__ = 'benediktsuessmann'
 
+"""
+Pipelines are called for every item that is returned from the spider.
+The settings.py configures which specific pipelines are called and in which order.
+"""
+
 
 class XmlExportPipeline(object):
+    """
+    Exports an scrapy item to a specific xml file using the XmlVocabularyListItemExporter
+    """
+
     def process_item(self, item, spider):
         category = item['category']
         language = item['language']
+
+        if not category and language:
+            raise DropItem("No VocabularyListItem")
 
         base_path = "output"
         topic = item['topic']
@@ -32,6 +45,11 @@ class XmlExportPipeline(object):
 
 
 class ItemStripPipeline(object):
+    """
+    Pipeline that cleans up the values of the items.
+    e.g. removes unnecessary blank spaces
+    """
+
     def process_item(self, item, spider=None):
         for key in item.keys():
             item[key] = self._get_sripped_value(item[key])
@@ -44,8 +62,10 @@ class ItemStripPipeline(object):
 
         if hasattr(value, 'items'):
             new_dict = {}
+
             for k, v in value.items():
                 new_dict[k] = self._get_sripped_value(v)
+
             return new_dict
         elif hasattr(value, '__iter__'):
             new_list = []
