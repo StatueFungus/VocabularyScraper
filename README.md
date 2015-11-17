@@ -4,6 +4,8 @@ VocabularyScraper
 VocabularyScraper is a Python tool to extract all kinds of vocabularies from http://www.vokabeln.de and stores each
 vocabularylist into a XML File.
 
+See some [example files][]
+
 Installation
 ------------
 
