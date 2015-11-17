@@ -17,7 +17,7 @@ class VocabularySpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)]')
+        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)][1]')
 
         for category in categories:
             anchor = category.xpath('td[1]//a')
@@ -33,7 +33,7 @@ class VocabularySpider(scrapy.Spider):
         category = response.meta['category']
 
         vocabulary_lists = response.xpath(
-            '//div[@id="col3_content"]/table[2]/tbody/tr[not(@class)][position() < last()][1]')
+            '//div[@id="col3_content"]/table[2]/tbody/tr[not(@class)][position() < last()]')
 
         for vocabulary_list in vocabulary_lists:
             anchor = vocabulary_list.xpath('td[last()]//a[last()]')
@@ -105,21 +105,29 @@ class VocabularySpider(scrapy.Spider):
 
         for row in vocabulary_group_body:
             vocabulary = self._get_vocabulary_item(row)
-            vocabularies.append(vocabulary)
+            if vocabulary is not None:
+                vocabularies.append(vocabulary)
 
         return group_item
 
     def _get_vocabulary_item(self, row):
         vocabulary = Vocabulary()
 
+        # checks if the table data is not empty
         col1 = row.xpath('td[1]//text()').extract()
+        if col1 and col1[0].strip():
+            vocabulary['language1'] = col1[0]
+            vocabulary['language1_description'] = "\n".join(col1[1:])
+        else:
+            return None
+
+        # checks if the table data is not empty
         col2 = row.xpath('td[2]//text()').extract()
-
-        vocabulary['language1'] = col1[0]
-        vocabulary['language1_description'] = "\n".join(col1[1:])
-
-        vocabulary['language2'] = col2[0]
-        vocabulary['language2_description'] = "\n".join(col2[1:])
+        if col2 and col2[0].strip():
+            vocabulary['language2'] = col2[0]
+            vocabulary['language2_description'] = "\n".join(col2[1:])
+        else:
+            return None
 
         return vocabulary
 
