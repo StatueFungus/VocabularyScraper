@@ -17,7 +17,11 @@ class VocabularySpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)][1]')
+        """
+        parses all categories and searches a link to each
+        """
+
+        categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)]')
 
         for category in categories:
             anchor = category.xpath('td[1]//a')
@@ -25,11 +29,16 @@ class VocabularySpider(scrapy.Spider):
             url = response.urljoin(anchor.xpath('@href').extract_first())
             category = anchor.xpath('text()').extract_first()
 
+            # request the category page
             request = scrapy.Request(url, callback=self.parse_category_contents)
             request.meta['category'] = category
             yield request
 
     def parse_category_contents(self, response):
+        """
+        parses a category page and searchs for links to each vocabularylist inside this category
+        """
+
         category = response.meta['category']
 
         vocabulary_lists = response.xpath(
@@ -41,6 +50,7 @@ class VocabularySpider(scrapy.Spider):
             language = vocabulary_list.xpath('td[1]/text()').extract_first()
             topic = vocabulary_list.xpath('td[2]/a/text()').extract_first()
 
+            #  request the page of the specific vocabulary page
             request = scrapy.Request(url, callback=self.parse_vocabularylist_contents)
             request.meta['category'] = category
             request.meta['language'] = language
@@ -49,6 +59,10 @@ class VocabularySpider(scrapy.Spider):
             yield request
 
     def parse_vocabularylist_contents(self, response):
+        """
+        parses the content of a vocabularylist and returns it as a vocabularyListItem
+        """
+
         page_content = response.xpath('//div[@id="col3_content"]')
 
         if not page_content:
@@ -56,8 +70,11 @@ class VocabularySpider(scrapy.Spider):
 
         description_table = page_content.xpath('table[3]')
         vocabulary_groups = page_content.xpath('table[position() > 3]')
+
+        # description of the content in this vocabulary list
         description = self._get_list_description(description_table, response.meta['language'], response.meta['topic'])
 
+        # wordpools are stored in a ordered list to keep the order when exporting them
         word_pools = OrderedDict()
         for vocabulary_group in vocabulary_groups:
             word_pool = self._get_word_pool(vocabulary_group)
@@ -78,6 +95,9 @@ class VocabularySpider(scrapy.Spider):
         return vocabulary_list
 
     def _get_list_description(self, table, language, topic):
+        """
+        parses the description of a vocabularylist
+        """
 
         if not table:
             return None
@@ -91,12 +111,19 @@ class VocabularySpider(scrapy.Spider):
         return description
 
     def _get_word_pool(self, vocabulary_group):
+        """
+        parses the word pool of a vocabularygroup
+        """
+
         vocabulary_group_header = self._get_vocabulary_group_header(vocabulary_group)
 
         word_pool = "Basiswortschatz"
         return word_pool
 
     def _get_vocabulary_group_item(self, vocabulary_group):
+        """
+        parses and returns a vocabulary group
+        """
 
         group_item = VocabularyGroup()
         group_item['number'] = 1
@@ -111,6 +138,10 @@ class VocabularySpider(scrapy.Spider):
         return group_item
 
     def _get_vocabulary_item(self, row):
+        """
+        parses and returns one single vocabulary
+        """
+
         vocabulary = Vocabulary()
 
         # checks if the table data is not empty
@@ -134,15 +165,13 @@ class VocabularySpider(scrapy.Spider):
     def _get_vocabulary_group_header(self, vocabulary_group):
         """
         returns the tr-element of the vocabulary-group with class='header'
-        :param vocabulary_group:
-        :return:
         """
+
         return vocabulary_group.xpath('tbody/tr[@class="header"]')
 
     def _get_vocabulary_group_body(self, vocabulary_group):
         """
         returns every tr-element of the vocabulary-group except the first (header)
-        :param vocabulary_group:
-        :return:
         """
+
         return vocabulary_group.xpath('tbody/tr[not(@class="header")]')
