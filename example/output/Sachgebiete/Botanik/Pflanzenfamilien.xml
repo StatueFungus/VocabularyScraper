@@ -1,0 +1,2781 @@
+Vokabeln erstellt von Detlef Gehring
+Copyright: (c) Detlef Gehring
+
+Ich besitze nicht die Rechte an den nachfolgenden Vokabeln.
+Sie sind ausschließlich für nicht gewerbliche Zwecke zu nutzen.
+
+In anderen Fällen kontaktieren Sie bitte den Urheber.
+Bitte lesen Sie den Copyright Hinweise auf http://vokabeln.de/v7/info-copyright.htm
+
+<?xml version="1.0" encoding="utf-8"?>
+<vocabularylists>
+    <vocabularylist>
+        <category>Sachgebiete</category>
+        <language>Botanik</language>
+        <topic>Pflanzenfamilien</topic>
+        <description>Pflanzenfamilien: Wissenschaftliche und deutsche Bezeichnungen. Mit Fundstelle im Bestimmungsbuch
+            Schmeil-Fitschen.
+        </description>
+        <word_pools>
+            <wordpool>
+                <vocabularygroups>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Dennstaedtiáceae (= Hypolepidaceae)</language1>
+                                <language1_description>SF171
+                                    Gattungen: 01 Pterídium
+                                </language1_description>
+                                <language2>Adlerfarngewächse</language2>
+                                <language2_description>SF171
+                                    Gattungen: 01 Adlerfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Azolláceae</language1>
+                                <language1_description>SF182
+                                    Gattungen: 01 Azólla
+                                </language1_description>
+                                <language2>Algenfarngewächse</language2>
+                                <language2_description>SF182
+                                    Gattungen: 01 Algenfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Aráceae</language1>
+                                <language1_description>(incl. Lemnaceae)
+                                    SF661
+                                    Gattungen: 01 Cálla - 02 Árum - 03 Pinéllia - 04 Pístia - 05 Spirodéla - 06 Lémna -
+                                    07 Wólffia
+                                </language1_description>
+                                <language2>Aronstabgewächse</language2>
+                                <language2_description>SF661
+                                    Gattungen: 01 Drachenwurz / Schlangenkraut - 02 Aronstab - 03 Pinellie - 04
+                                    Wassersalat - 05 Teichlinse - 06 Wasserlinse - 07 Zwerglinse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Valerianáceae</language1>
+                                <language1_description>SF539
+                                    Gattungen: 01 Valerianélla - 02 Valeriána - 03 Centránthus
+                                </language1_description>
+                                <language2>Baldriangewächse</language2>
+                                <language2_description>SF539
+                                    Gattungen: 01 Feldsalat / Ackersalat / Rapunzel - 02 Baldrian - 03 Spornblume
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Balsamináceae</language1>
+                                <language1_description>SF440
+                                    Gattungen: 01 Impátiens
+                                </language1_description>
+                                <language2>Balsaminengewächse</language2>
+                                <language2_description>SF440
+                                    Gattungen: 01 Springkraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Lycopodiáceae</language1>
+                                <language1_description>SF161
+                                    Gattungen: 01 Hupérzia - 02 Lycopodiélla - 03 Lycopódium - 04 Diphasiástrum
+                                </language1_description>
+                                <language2>Bärlappgewächse</language2>
+                                <language2_description>SF161
+                                    Gattungen: 01 Tannenbärlapp - 02 Holub / Sumpfbärlapp - 03 Bärlapp - 04 Flachbärlapp
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Berberidáceae</language1>
+                                <language1_description>SF210
+                                    Gattungen: 01 Bérberis - 02 Mahónia - 03 Epimédium
+                                </language1_description>
+                                <language2>Berberitzengewächse</language2>
+                                <language2_description>SF210
+                                    Gattungen: 01 Sauerdorn / Berberitze - 02 Mahonie - 03 Sockenblume
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Juncáceae</language1>
+                                <language1_description>SF700
+                                    Gattungen: 01 Júncus -02 Lúzula
+                                </language1_description>
+                                <language2>Binsengewächse</language2>
+                                <language2_description>SF700
+                                    Gattungen: 01 Binse - 02 Hainsimse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Betuláceae</language1>
+                                <language1_description>(incl. Corylaceae)
+                                    SF383
+                                    Gattungen: 01 Bétula - 02 Álnus - 03 Cárpinus - 04 Córylus - 05 Óstrya
+                                </language1_description>
+                                <language2>Birkengewächse</language2>
+                                <language2_description>SF383
+                                    Gattungen: 01 Birke - 02 Erle - 03 Hainbuche / Weißbuche - 04 Hasel / Haselnuss - 05
+                                    Hopfenbuche
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Simaroubáceae</language1>
+                                <language1_description>SF424
+                                    Gattungen: 01 Ailánthus
+                                </language1_description>
+                                <language2>Bittereschengewächse</language2>
+                                <language2_description>SF424
+                                    Gattungen: 01 Götterbaum
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Scheuchzeriáceae</language1>
+                                <language1_description>SF655
+                                    Gattungen: 01 Scheuchzéria
+                                </language1_description>
+                                <language2>Blumenbinsengewächse</language2>
+                                <language2_description>SF655
+                                    Gattungen: 01 Blumenbinse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Lythráceae</language1>
+                                <language1_description>(incl. Trapaceae)
+                                    SF282
+                                    Gattungen: 01 Péplis - 02 Lýthrum - 03 Trápa
+                                </language1_description>
+                                <language2>Blutweiderichgewächse</language2>
+                                <language2_description>SF282
+                                    Gattungen: 01 Sumpfquendel - 02 Weiderich - 03 Wassernuss
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Isoëtáceae</language1>
+                                <language1_description>SF164
+                                    Gattungen: 01 Isoëtes
+                                </language1_description>
+                                <language2>Brachsenkrautgewächse</language2>
+                                <language2_description>SF164
+                                    Gattungen: 01 Brachsenkraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Urticáceae</language1>
+                                <language1_description>SF351
+                                    Gattungen: 01 Urtíca - 02 Parietária
+                                </language1_description>
+                                <language2>Brennnesselgewächse</language2>
+                                <language2_description>SF351
+                                    Gattungen: 01 Brennnessel - 02 Glaskraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Fagáceae (= Cupuliférae)</language1>
+                                <language1_description>SF381
+                                    Gattungen: 01 Castánea - 02 Fágus - 03 Quércus
+                                </language1_description>
+                                <language2>Buchengewächse</language2>
+                                <language2_description>SF381
+                                    Gattungen: 01 Edelkastanie / Esskastanie - 02 Rotbuche - 03 Eiche
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Buxáceae</language1>
+                                <language1_description>SF215
+                                    Gattungen: 01 Búxus
+                                </language1_description>
+                                <language2>Buchsbaumgewächse</language2>
+                                <language2_description>SF215
+                                    Gattungen: 01 Buchsbaum
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Crassuláceae</language1>
+                                <language1_description>SF265
+                                    Gattungen: 01 Crássula - 02 Sempervívum - 03 Jovibárba - 04 Sédum
+                                </language1_description>
+                                <language2>Dickblattgewächse</language2>
+                                <language2_description>SF265
+                                    Gattungen: 01 Dickblatt - 02 Hauswurz - 03 Donarsbart - 04 Fetthenne / Mauerpfeffer
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Apiáceae (= Umbelliférae) (1/2)</language1>
+                                <language1_description>SF543
+                                    Gattungen: 01 Sanícula - 02 Hasquétia - 03 Astrántia - 04 Erýngium - 05
+                                    Chaerophýllum - 06 Anthríscus - 07 Scándix - 08 Mýrrhis - 09 Tórilis - 10 Turgénia -
+                                    11 Cáúcalis - 12 0rláya - 13 Copriándrum - 14 Bífora - 15 Smýrnium - 16 Cónium - 17
+                                    Pleurospérmum - 18 Bupléúrum - 19 Trínia - 20 Ápium - 21 Petroselínum - 22 Síson -
+                                    23 Cicúta - 24 Ámmi - 25 Falcária
+                                </language1_description>
+                                <language2>Doldenblütler (1/2)</language2>
+                                <language2_description>SF543
+                                    Gattungen: 01 Sanikel - 02 Schaftdolde - 03 Sterndolde / Strenze - 04 Mannstreu - 05
+                                    Kälberkropf - 06 Kerbel - 07 Nadelkerbel / Venuskamm - 08 Süßdolde - 09
+                                    Klettenkerbel - 10 Haftdolde - 11 Haftdolde - 12 Breitsame - 13 Koriander - 14
+                                    Hohlsame - 15 Gelbdolde - 16 Schierling - 17 Rippensame - 18 Hasenohr - 19
+                                    Faserschirm - 20 Sellerie - 21 Petersilie - 22 Gewürzdolde - 23 Wasserschierling -
+                                    24 Knorpelmöhre - 25 Sichelmöhre
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Araliáceae</language1>
+                                <language1_description>SF543
+                                    Gattungen: 01 Hédera - 02 Hydrocóthyle
+                                </language1_description>
+                                <language2>Efeugewächse</language2>
+                                <language2_description>SF543
+                                    Gattungen: 01 Efeu - 02 Wassernabel
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Verbenáceae</language1>
+                                <language1_description>SF474
+                                    Gattungen: 01 Verbéna
+                                </language1_description>
+                                <language2>Eisenkrautgewächse</language2>
+                                <language2_description>SF474
+                                    Gattungen: 01 Eisenkraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gentianáceae</language1>
+                                <language1_description>SF441
+                                    Gattungen: 01 Cicéndia - 02 Blackstónia - 03 Centáúrium - 04 Swértia - 05
+                                    Lomatogónium - 06 Gentiána - 07 Gentianélla
+                                </language1_description>
+                                <language2>Enziangewächse</language2>
+                                <language2_description>SF441
+                                    Gattungen: 01 Zindelkraut / Fadenenzian - 02 Bitterling - 03 Tausendgüldenkraut - 04
+                                    Tarant / Sumpfenzian - 05 Saumnarbe / Tauernblümchen - 06 Enzian - 07 Enzian
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Fumariáceae</language1>
+                                <language1_description>SF213
+                                    Gattungen: 01 Corýdalis - 02 Fumária - 03 Hypécoum - 04 Dicéntra
+                                </language1_description>
+                                <language2>Erdrauchgewächse</language2>
+                                <language2_description>SF213
+                                    Gattungen: 01 Lerchensporn - 02 Erdrauch - 03 Gelbäugelchen - 04 Herzblume /
+                                    Tränendes Herz
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Menyantháceae</language1>
+                                <language1_description>SF567
+                                    Gattungen: 01 Menyánthes - 02 Nymphoídes
+                                </language1_description>
+                                <language2>Fieberkleegewächse</language2>
+                                <language2_description>SF567
+                                    Gattungen: 01 Fieberklee / Bitterklee - 02 Seekanne
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hydrocharitácea</language1>
+                                <language1_description>(incl. Najadáceae)
+                                    SF653
+                                    Gattungen: 01 Hydrílla - 02 Elódea - 03 Lagarosíphon - 04 Stratiótes - 05
+                                    Hydrócharis - 06 Vallisnéria - 07 Nájas
+                                </language1_description>
+                                <language2>Froschbissgewächse</language2>
+                                <language2_description>SF653
+                                    Gattungen: 01 Grundnessel - 02 Wasserpest - 03 Scheinwasserpest - 04 Krebsschere -
+                                    05 Froschbiss - 06 Wasserschraube - 07 Nixenkraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Alismatáceae</language1>
+                                <language1_description>SF651
+                                    Gattungen: 01 Alísma - 02 Caldésia - 03 Lurónium - 04 Baldéllia - 05 Sagittária
+                                </language1_description>
+                                <language2>Froschlöffelgewächse</language2>
+                                <language2_description>SF651
+                                    Gattungen: 01 Froschlöffel - 02 Herzlöffel / Caldesie - 03 Froschkraut - 04
+                                    Igelschlauch - 05 Pfeilkraut
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Myricáceae</language1>
+                                <language1_description>SF385
+                                    Gattungen: 01 Myríca
+                                </language1_description>
+                                <language2>Gagelstrauchgewächse</language2>
+                                <language2_description>SF385
+                                    Gattungen: 01 Gagelstrauch
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Caprifoliáceae</language1>
+                                <language1_description>SF534
+                                    Gattungen: 01 Lonícera - 02 Symphoricárpos
+                                </language1_description>
+                                <language2>Geißblattgewächse</language2>
+                                <language2_description>SF534
+                                    Gattungen: 01 Heckenkirsche / Geißblatt - 02 Schneebeere
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Campanuláceae</language1>
+                                <language1_description>(incl. Lobeliáceae)
+                                    SF567
+                                    Gattungen: 01 Campánula - 02 Adenóphora - 03 Legoúsia - 04 Phytéúma - 05
+                                    Wahlenbérgia - 06 Jasióne - 07 Lobélia - 08 Symphyándra - 09 Downíngia
+                                </language1_description>
+                                <language2>Glockenblumengewächse</language2>
+                                <language2_description>SF567
+                                    Gattungen: 01 Glockenblume - 02 Becherglocke - 03 Frauenspiegel - 04 Teufelskralle /
+                                    Rapunzel - 05 Moorglöckchen - 06 Sandglöckchen - 07 Lobelie - 08 Ringglockenblume -
+                                    09 Scheinlobelie
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Plumbagináceae</language1>
+                                <language1_description>SF259
+                                    Gattungen: 01 Limónium - 02 Arméria
+                                </language1_description>
+                                <language2>Grasnelkengewächse</language2>
+                                <language2_description>SF259
+                                    Gattungen: 01 Strandflieder / Strandnelke - 02 Grasnelke
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Ranunculáceae</language1>
+                                <language1_description>SF191
+                                    Gattungen: 01 Cáltha - 02 Tróllius - 03 Helléborus - 04 Eránthis - 05 Calliánthemum
+                                    - 06 Nigélla - 07 Isopýrum - 08 Actáéa - 09 Cimicifúga - 10 Aquilégia - 11
+                                    Delphínium - 12 Consólida - 13 Aconítum - 14 Clemátis - 15 Pulsatílla - 16 Anemóne -
+                                    17 Hepática - 18 Ranúnculus - 19 Ceratocéphala - 20 Myosúrus - 21 Thalíctrum - 22
+                                    Adónis
+                                </language1_description>
+                                <language2>Hahnenfußgewächse</language2>
+                                <language2_description>SF191
+                                    Gattungen: 01 Sumpfdotterblume - 02 Trollblume - 03 Nieswurz - 04 Winterling - 05
+                                    Schmuckblume - 06 Schwarzkümmel - 07 Muschelblümchen - 08 Christophskraut - 09
+                                    Wanzenkraut - 10 Akelei -11 Rittersporn - 12 Rittersporn - 13 Eisenhut - 14 Waldrebe
+                                    - 15 Küchenschelle / Kuhschelle - 16 Windröschen - 17 Leberblümchen - 18 Hahnenfuß -
+                                    19 Hornköpfchen - 20 Mäuseschwänzchen - 21 Wiesenraute - 22 Adonisröschen /
+                                    Teufelsauge
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Cannabáceae</language1>
+                                <language1_description>SF350
+                                    Gattungen: 01 Húmulus - 02 Cánnabis - 03 Céltis
+                                </language1_description>
+                                <language2>Hanfgewächse</language2>
+                                <language2_description>SF350
+                                    Gattungen: 01 Hopfen - 02 Hanf - 03 Zürgelbaum
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Cornáceae</language1>
+                                <language1_description>SF427
+                                    Gattungen: 01 Córnus
+                                </language1_description>
+                                <language2>Hartriegelgewächse</language2>
+                                <language2_description>SF427
+                                    Gattungen: 01 Hartriegel
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hymenophylláceae</language1>
+                                <language1_description>SF171
+                                    Gattungen: 01 Hymenophýllum
+                                </language1_description>
+                                <language2>Hautfarngewächse</language2>
+                                <language2_description>SF171
+                                    Gattungen: 01 Hautfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Ericáceae</language1>
+                                <language1_description>(incl. Pyrolaceae, Monotropaceae u. Empetraceae)
+                                    SF428
+                                    Gattungen: 01 Chimáphila - 02 Pýrola - 03 Monótropa - 04 Lédum - 05 Rhododéndron -
+                                    06 Rhodothámnus - 07 Kálmia - 08 Loiseléúria - 09 Andrómeda - 10 Chamaedáphne - 11
+                                    Arctostáphylos - 12 Vaccínium - 13 Callúna - 14 Eríca - 15 Émpetrum
+                                </language1_description>
+                                <language2>Heidekrautgewächse</language2>
+                                <language2_description>SF428
+                                    Gattungen: 01 Winterlieb - 02 Wintergrün - 03 Fichtenspargel - 04 Porst - 05
+                                    Alpenrose / Almrausch - 06 Zwergalpenrose - 07 Berglorbeer / Lorbeerrose - 08
+                                    Alpenheide - 09 Poleigränke / Rosmarinheide - 10 Torfgränke - 11 Bärentraube - 12
+                                    Heidelbeere / Preiselbeere - 13 Besenheide / Heidekraut - 14 Heide / Erika - 15
+                                    Krähenbeere
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Parnassiáceae</language1>
+                                <language1_description>SF287
+                                    Gattungen: 01 Parnássia
+                                </language1_description>
+                                <language2>Herzblattgewächse</language2>
+                                <language2_description>SF287
+                                    Gattungen: 01 Sumpfherzblatt / Studentenröschen
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Ceratophylláceae</language1>
+                                <language1_description>SF189
+                                    Gattungen: 01 Ceratophýllum
+                                </language1_description>
+                                <language2>Hornblattgewächse</language2>
+                                <language2_description>SF189
+                                    Gattungen: 01 Hornblatt
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Sparganiáceae</language1>
+                                <language1_description>SF808
+                                    Gattungen: 01 Spargánium
+                                </language1_description>
+                                <language2>Igelkolbengewächse</language2>
+                                <language2_description>SF808
+                                    Gattungen: 01 Igelkolben
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Apocynáceae</language1>
+                                <language1_description>(incl. Asclepiadaceae)
+                                    SF448
+                                    Gattungen: 01 Vínca - 02 Vincetóxicum - 03 Asclépias
+                                </language1_description>
+                                <language2>Immergrüngewächse</language2>
+                                <language2_description>SF448
+                                    Gattungen: 01 Immergrün - 02 Schwalbenwurz - 03 Seidenpflanze
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hypericáceae</language1>
+                                <language1_description>SF289</language1_description>
+                                <language2>Johanniskraut- oder Hartheugewächse</language2>
+                                <language2_description>SF289
+                                    siehe Hartheu- oder Johanniskrautgewächse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Tropaeoláceae</language1>
+                                <language1_description>SF419
+                                    Gattungen: 01 Tropáéolum
+                                </language1_description>
+                                <language2>Kapuzinerkressengewächse</language2>
+                                <language2_description>SF419
+                                    Gattungen: 01 Kapuzinerkresse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Dipsacáceae</language1>
+                                <language1_description>SF535
+                                    Gattungen: 01 Cephalária - 02 Dípsacus - 03 Succísa - 04 Knáútia - 05 Scabiósa
+                                </language1_description>
+                                <language2>Kardengewächse</language2>
+                                <language2_description>SF535
+                                    Gattungen: 01 Schuppenkopf - 02 Karde - 03 Teufelsabbiss - 04 Witwenblume - 05
+                                    Skabiose / Grindkraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Phytolaccáceae</language1>
+                                <language1_description>SF216
+                                    Gattungen: 01 Phytolácca
+                                </language1_description>
+                                <language2>Kermesbeerengewächse</language2>
+                                <language2_description>SF216
+                                    Gattungen: 01 Kermesbeere
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Pináceae</language1>
+                                <language1_description>SF183
+                                    Gattungen: 01 Lárix - 02 Pínus - 03 Ábies - 04 Pícea - 05 Pseudotsúga - 06 Tsúga
+                                </language1_description>
+                                <language2>Kieferngewächse</language2>
+                                <language2_description>SF183
+                                    Gattungen: 01 Lärche - 02 Kiefer - 03 Tanne / Weißtanne - 04 Fichte / Rottanne - 05
+                                    Douglastanne / Douglasie - 06 Hemlocktanne / Schierlingstanne
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Marsileáceae</language1>
+                                <language1_description>SF182
+                                    Gattungen: 01 Marsílea - 02 Pilulária
+                                </language1_description>
+                                <language2>Kleefarngewächse</language2>
+                                <language2_description>SF182
+                                    Gattungen: 01 Kleefarn - 02 Pillenfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Polygonáceae</language1>
+                                <language1_description>SF251
+                                    Gattungen: 01 Rúmex - 02 Rhéum - 03 Oxýria - 04 Polýgonum - 05 Fallópsia - 06
+                                    Fagopýrum
+                                </language1_description>
+                                <language2>Knöterichgewächse</language2>
+                                <language2_description>SF251
+                                    Gattungen: 01 Ampfer - 02 Rhabarber - 03 Säuerling - 04 Knöterich - 05
+                                    Windenknöterich / Staudenknöterich - 06 Buchweizen
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Osmundáceae</language1>
+                                <language1_description>SF171
+                                    Gattungen: 01 Osmúnda
+                                </language1_description>
+                                <language2>Königsfarngewächse</language2>
+                                <language2_description>SF171
+                                    Gattungen: 01 Königsfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Asteráceae (= Composítae)</language1>
+                                <language1_description>SF576
+                                    siehe Asteráceae (1) - (3)
+                                </language1_description>
+                                <language2>Köpfchenblütler / Korbblütler</language2>
+                                <language2_description>SF576
+                                    siehe Korbblütler / Köpfchenblütler (1) - (3)
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Asteráceae (= Composítae) (2/3)</language1>
+                                <language1_description>SF576
+                                    Gattungen: 31 Bidens - 32 Guizótia - 33 Galinsóga - 34 Chamaemélum - 35 Ánthemis -
+                                    36 Achilléa - 37 Matricária - 38 Tripleurospérmum - 39 Glebiónis - 40 Leucánthemum -
+                                    41 Leucanthemópsis - 42 Leucanthemélla - 43 Tanacétum - 44 Cótula - 45 Artemísia -
+                                    46 Adenostýles - 47 Anacýclus - 48 Santolína - 49 Tussilágo - 50 Petasítes - 51
+                                    Homógyne - 52 Erechtites - 53 Árnica - 54 Dorónicum - 55 Senécio - 56 Ligulária - 57
+                                    Caléndula - 58 Echínops - 59 Xeránthemum - 60 Carlína
+                                </language1_description>
+                                <language2>Korbblütler / Köpfchenblütler (2/3)</language2>
+                                <language2_description>SF576
+                                    Gattungen: 31 Zweizahn - 32 Ramtillkraut - 33 Knopfkraut / Franzosenkraut - 34
+                                    Römische Kamille - 35 Hundskamille - 36 Schafgarbe - 37 Kamille - 38 Kamille - 39
+                                    Wucherblume - 40 Margerite - 41 Alpenmargerite - 42 Herbstmargerite - 43
+                                    Straußmargerite - 44 Laugenblume - 45 Beifuß / Edelraute - 46 Alpendost - 47
+                                    Bertramwurzel - 48 Heiligenblume / Zypressenkraut / Mottenkraut - 49 Huflattich - 50
+                                    Pestwurz - 51 Alpenlattich - 52 Scheinkreuzkraut - 53 Arnika / Wohlverleih - 54
+                                    Gämswurz - 55 Greiskraut / Kreuzkraut - 56 Goldkolben - 57 Ringelblume - 58
+                                    Kugeldistel - 59 Spreublume - 60 Eberwurz
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Rubiáceae</language1>
+                                <language1_description>SF449
+                                    Gattungen: 01 Sherárdia - 02 Phuópsis - 03 Aspérula - 04 Cruciáta - 05 Gállium - 06
+                                    Rúbia
+                                </language1_description>
+                                <language2>Krappgewächse / Rötegewächse</language2>
+                                <language2_description>SF449
+                                    Gattungen: 01 Ackerröte - 02 Baldriangesicht - 03 Meier - 04 Kreuzlabkraut - 05
+                                    Labkraut - 06 Färberröte
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Polygaláceae</language1>
+                                <language1_description>SF378
+                                    Gattungen: 01 Polýgala
+                                </language1_description>
+                                <language2>Kreuzblumengewächse</language2>
+                                <language2_description>SF378
+                                    Gattungen: 01 Kreuzblume
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Brassicáceae (= Cruciférae) (1/2)</language1>
+                                <language1_description>SF386
+                                    Gattungen: 01 Sisýmbrium - 02 Descuráínia - 03 Alliária - 04 Arabidópsis - 05 Bráya
+                                    - 06 Mýagrum - 07 Ísatis - 08 Búnias - 09 Erýsimum - 10 Hésperis - 11 Choríspora -
+                                    12 Matthíola - 13 Euclídium - 14 Barbaréa - 15 Roríppa - 16 Nastúrtium - 17
+                                    Armorácia - 18 Cardámine - 19 Cardaminópsis - 20 Árabis - 21 Lunária - 22 Peltária -
+                                    23 Alýssum - 24 Aurínia - 25 Bertéroa - 26 Drába - 27 Eróphila - 28 Petrocállis - 29
+                                    Cochleária - 30 Kérnera
+                                </language1_description>
+                                <language2>Kreuzblütler (1/2)</language2>
+                                <language2_description>SF386
+                                    Gattungen: 01 Rauke - 02 Besenrauke - 03 Knoblauchsrauke - 04 Schmalwand - 05
+                                    Schotenkresse / Breitschötchen - 06 Hohldotter - 07 Waid / Färberwaid - 08
+                                    Zackenschötchen - 09 Schöterich - 10 Nachtviole - 11 Gliederschote - 12 Levkoje - 13
+                                    Schnabelschötchen - 14 Barbarakraut - 15 Sumpfkresse - 16 Brunnenkresse - 17 Kren /
+                                    Meerrettich - 18 Schaumkraut - 19 Schaumkresse - 20 Gänsekresse - 21 Silberblatt -
+                                    22 Scheibenkraut - 23 Steinkraut / Steinkresse - 24 Steinkraut - 25 Graukresse - 26
+                                    Felsenblümchen - 27 Hungerblümchen - 28 Steinschmückel - 29 Löffelkraut - 30
+                                    Kugelschötchen
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Rhamnáceae</language1>
+                                <language1_description>SF347
+                                    Gattungen: 01 Frángula - 02 Rhámnus
+                                </language1_description>
+                                <language2>Kreuzdorngewächse</language2>
+                                <language2_description>SF347
+                                    Gattungen: 01 Faulbaum - 02 Kreuzdorn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Cucurbitáceae</language1>
+                                <language1_description>SF380
+                                    Gattungen: 01 Thladiántha - 02 Bryónia - 03 Cúcumis - 04 Cucúrbita - 05 Sícyos - 06
+                                    Echinocýstis
+                                </language1_description>
+                                <language2>Kürbisgewächse</language2>
+                                <language2_description>SF380
+                                    Gattungen: 01 Quetschgurke - 02 Zaunrübe - 03 Gurke - 04 Kürbis - 05 Haargurke - 06
+                                    Stachelgurke
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Potamogetonáceae</language1>
+                                <language1_description>(incl. Zannichelliáceae)
+                                    SF656
+                                    Gattungen: 01Groenlándia - Potamogéton - 03 Zannichéllia
+                                </language1_description>
+                                <language2>Laichkrautgewächse</language2>
+                                <language2_description>SF656
+                                    Gattungen: 01 Fischkraut / Dichtes Laichkraut - 02 Laichkraut - 03 Teichfaden
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Santaláceae</language1>
+                                <language1_description>SF262
+                                    Gattungen: 01 Thesíum - 02 Víscum
+                                </language1_description>
+                                <language2>Leinblattgewächse</language2>
+                                <language2_description>SF262
+                                    Gattungen: 01 Leinblatt - 02 Mistel
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Lináceae</language1>
+                                <language1_description>SF315
+                                    Gattungen: 01 Línum - 02 Radíola
+                                </language1_description>
+                                <language2>Leingewächse</language2>
+                                <language2_description>SF315
+                                    Gattungen: 01 Lein - 02 Zwergflachs
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Liliáceae</language1>
+                                <language1_description>SF664
+                                    Gattungen: 01 Lilium - 02 Fritillária - 03 Túlipa - 04 Erythrónium - 05 Llóydia - 06
+                                    Gágea
+                                </language1_description>
+                                <language2>Liliengewächse</language2>
+                                <language2_description>SF664
+                                    Gattungen: 01 Lilie - 02 Schachbrettblume - 03 Tulpe - 04 Zahnlilie / Hundszahn - 05
+                                    Faltenlilie - 06 Goldstern / Gelbstern
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Lamiáceae (= Labiatae)</language1>
+                                <language1_description>SF474
+                                    Gattungen: 01 Ájuga - 02 Téúcrium - 03 Scutellária - 04 Lavándula - 05 Siderítis -
+                                    06 Marrúbium - 07 Népeta - 08 Glechóma - 09 Dracocéphalum - 10 Prunélla - 11
+                                    Melíttis - 12 Phlómis - 13 - Galeópsis - 14 Lamiástrum - 15 Lámium - 16 Leonúrus -
+                                    17 Ballóta - 18 Stáchys - 19 Sálvia - 20 Hormínum - 21 Melíssa - 22 Monárda - 23
+                                    Saturéja - 24 Calamíntha - 25 Hyssópus - 26 Majorána - 27 Oríganum - 28 Thýmus - 29
+                                    Lýcopus - 30 Méntha - 31 Elshóltzia - 32 Ócimum
+                                </language1_description>
+                                <language2>Lippenblütler</language2>
+                                <language2_description>SF474
+                                    Gattungen: 01 Günsel - 02 Gamander - 03 Helmkraut - 04 Lavendel - 05 Gliedkraut - 06
+                                    Andorn - 07 Katzenminze - 08 Gundermann - 09 Drachenkopf - 10 Braunelle - 11
+                                    Immenblatt - 12 Brandkraut - 13 Hohlzahn / Hanfnessel - 14 Goldnessel - 15
+                                    Taubnessel / Bienensaug - 16 Herzgespann - 17 Schwarznessel / Stinkandorn - 18 Ziest
+                                    - 19 Salbei - 20 Drachenmaul - 21 Melisse - 22 Goldmelisse - 23 Bohnenkraut - 24
+                                    Bergminze - 25 Ysop - 26 Majoran - 27 Dost - 28 Thymian / Quendel - 29 Wolfstrapp -
+                                    30 Minze - 31 Kammminze - 32 Basilienkraut / Basilikum
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Malváceae</language1>
+                                <language1_description>(incl. Tiliaceae)
+                                    SF421
+                                    Gattungen: 01 Hibíscus - 02 Abutílon - 03 Álcea - 04 Altháéa - 05 Lavatéra - 06
+                                    Málva - 07 Tília
+                                </language1_description>
+                                <language2>Malvengewächse</language2>
+                                <language2_description>SF421
+                                    Gattungen: 01 Stundenblume - 02 Samtpappel / Chinajute - 03 Stockrose - 04 Eibisch -
+                                    05 Strauchpappel - 06 Malve - 07 Linde
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Moráceae</language1>
+                                <language1_description>SF350
+                                    Gattungen: 01 Mórus
+                                </language1_description>
+                                <language2>Maulbeergewächse</language2>
+                                <language2_description>SF350
+                                    Gattungen: 01 Maulbeerbaum
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Papaveráceae</language1>
+                                <language1_description>SF211
+                                    Gattungen: 01 Eschschólzia - 02 Chelidónium - 03 Gláúcium - 04 Papáver
+                                </language1_description>
+                                <language2>Mohngewächse</language2>
+                                <language2_description>SF211
+                                    Gattungen: 01 Kappenmohn - 02 Schöllkraut - 03 Hornmohn - 04 Mohn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Selaginelláceae</language1>
+                                <language1_description>SF164
+                                    Gattungen: 01Selaginélla
+                                </language1_description>
+                                <language2>Moosfarngewächse</language2>
+                                <language2_description>SF164
+                                    Gattungen: 01 Moosfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Adoxáceae</language1>
+                                <language1_description>SF533
+                                    Gattungen: 01 Sambúcus - 02 Vibúrnum - 03 Adóxa
+                                </language1_description>
+                                <language2>Moschuskrautgewächse</language2>
+                                <language2_description>SF533
+                                    Gattungen: 01 Holunder - 02 Schneeball - 03 Moschuskraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Onagráceae (= Oenotheraceae)</language1>
+                                <language1_description>SF283
+                                    Gattungen: 01 Ludwígia - 02 Epilóbium - 03 Oenothéra - 04 Circáéa
+                                </language1_description>
+                                <language2>Nachtkerzengewächse</language2>
+                                <language2_description>SF283
+                                    Gattungen: 01 Heusenkraut - 02 Weidenröschen - 03 Nachtkerze - 04 Hexenkraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Solanáceae</language1>
+                                <language1_description>SF458
+                                    Gattungen: 01 Nicándra - 02 Petúnia - 03 Lýcium - 04 Átropa - 05 Scopólia - 06
+                                    Hyoscýamus - 07 Phýsalis - 08 Solánum - 09 Datúra - 10 Nicotiána
+                                </language1_description>
+                                <language2>Nachtschattengewächse</language2>
+                                <language2_description>SF458
+                                    Gattungen: 01 Giftbeere - 02 Petunie - 03 Bocksdorn - 04 Tollkirsche - 05 Tollkraut
+                                    - 06 Bilsenkraut - 07 Judenkirsche - 08 Nachtschatten - 09 Stechapfel - 10 Tabak
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Ophioglossáceae</language1>
+                                <language1_description>SF169
+                                    Gattungen: 01 Ophioglóssum - 02 Botrýchium
+                                </language1_description>
+                                <language2>Natternzungengewächse</language2>
+                                <language2_description>SF169
+                                    Gattungen: 01 Natternzunge - 02 Mondraute -
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Amaryllidáceae</language1>
+                                <language1_description>SF676
+                                    Gattungen: 01 Galánthus - 02 Leucójum - 03 Narcissus
+                                </language1_description>
+                                <language2>Narzissengewächse</language2>
+                                <language2_description>SF676
+                                    Gattungen: 01 Schneeglöckchen - 02 Knotenblume - 03 Narzisse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Caryophylláceae</language1>
+                                <language1_description>SF229
+                                    Gattungen: 01 Illécebrum - 02 Corrigíola - 03 Herniária - 04 Polycárpon - 05
+                                    Spérgula - 06 Spergulária - 07 Scleránthus - 08 Minuártia - 09 Honckénya - 10 Sagína
+                                    - 11 Arenária - 12 Moehríngia - 13 Holósteum - 14 Móénchia - 15 Pseudostellária - 16
+                                    Stellária - 17 Lepyródiclis - 18 Myosóton - 19 Cerástium - 20 Gypsóphila - 21
+                                    Saponária - 22 Vaccária - 23 Petrorhágia - 24 Diánthus - 25 Cucúbalus - 26 Siléne -
+                                    27 Lýchnis - 28 Agrostémma
+                                </language1_description>
+                                <language2>Nelkengewächse</language2>
+                                <language2_description>SF229
+                                    Gattungen: 01 Knorpelblume - 02 Hirschsprung - 03 Bruchkraut - 04 Nagelkraut - 05
+                                    Spark - 06 Spärkling / Schuppenmiere - 07 Knäuel - 08 Miere / Meirich - 09 Salzmiere
+                                    - 10 Mastkraut - 11 Sandkraut - 12 Nabelmiere - 13 Spurre - 14 Weißmiere - 15
+                                    Knollenmiere - 16 Sternmiere - 17 Blasenmiere - 18 Wasserdarm - 19 Hornkraut - 20
+                                    Gipskraut - 21 Seifenkraut - 22 Kuhkraut - 23 Nelkenköpfchen / Felsennelke - 24
+                                    Nelke - 25 Taubenkropf / Hühnerbiss - 26 Leimkraut - 27 Lichtnelke / Pechnelke - 28
+                                    Kornrade
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Oleáceae</language1>
+                                <language1_description>SF473
+                                    Gattungen: 01 Fráxinus - 02 Ligústrum - 03 Syrínga - 04 Forsýthia
+                                </language1_description>
+                                <language2>Ölbaumgewächse</language2>
+                                <language2_description>SF473
+                                    Gattungen: 01 Esche - 02 Liguster - 03 Flieder - 04 Goldflieder / Forsythie
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Elaeagnáceae</language1>
+                                <language1_description>SF348
+                                    Gattungen: 01 Hippóphaë - 02 Elaeágnus
+                                </language1_description>
+                                <language2>Ölweidengewächse</language2>
+                                <language2_description>SF348
+                                    Gattungen: 01 Sanddorn - 02 Ölweide
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Orchidáceae</language1>
+                                <language1_description>SF680
+                                    Gattungen: 01 Cypripédium - 02 Cephalanthéra - 03 Epipáctis - 04 Limodórum - 05
+                                    Lístera - 06 Neóttia - 07 Spiránthes - 08 Goodyéra - 09 Epipógium - 10 Platanthéra -
+                                    11 Coeloglóssum - 12 Gymnadénia - 13 Nigritélla - 14 Pseudórchis - 15 Dactylorhíza -
+                                    16 Neottiánthe - 17 Chamórchis - 18 Hermínium - 19 Óphrys - 20 Traunsteínera - 21
+                                    Órchis - 22 Áceras - 23 Anacámptis - 24 Himantoglóssum - 25 Maláxis - 26 Hammárbya -
+                                    27 Lìparis - 28 Corallorrhíza
+                                </language1_description>
+                                <language2>Orchideen / Knabenkrautgewächse</language2>
+                                <language2_description>SF680
+                                    Gattungen: 01 Frauenschuh - 02 Waldvögelein - 03 Sumpfwurz / Stendelwurz - 04 Dingel
+                                    / Dingelorchis - 05 Zweiblatt - 06 Nestwurz - 07 Drehwurz / Wendelähre - 08
+                                    Netzblatt - 09 Widerbart - 10 Kuckucksblume / Waldhyazinthe - 11 Hohlzunge - 12
+                                    Händelwurz - 13 Kohlröschen - 14 Weißzüngel - 15 Knabenkraut - 16 Kapuzen-Nacktdrüse
+                                    - 17 Zwergstendel - 18 Einknolle - 19 Ragwurz - 20 Kugelknabenkraut - 21 Knabenkraut
+                                    - 22 Ohnhorn / Ohnsporn / Puppenorchis - 23 Hundswurz - 24 Riemenzunge / Bocksorchis
+                                    - 25 Einblattorchis - 26 Weichwurz - 27 Glanzkraut - 28 Korallenwurz
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Aristolochiáceae</language1>
+                                <language1_description>SF190
+                                    Gattungen: 01 Ásarum - 02 Aristolóchia
+                                </language1_description>
+                                <language2>Osterluzeigewächse</language2>
+                                <language2_description>SF190
+                                    Gattungen: 01 Haselwurz - 02 Osterluzei
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Paeoniáceae</language1>
+                                <language1_description>SF264
+                                    Gattungen: 01 Paeónia
+                                </language1_description>
+                                <language2>Pfingstrosengewächse</language2>
+                                <language2_description>SF264
+                                    Gattungen: 01 Pfingstrose
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Staphyleáceae</language1>
+                                <language1_description>SF277
+                                    Gattungen: 01 Staphyléa
+                                </language1_description>
+                                <language2>Pimpernussgewächse</language2>
+                                <language2_description>SF277
+                                    Gattungen: 01 Pimpernuss
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Platanáceae</language1>
+                                <language1_description>SF216
+                                    Gattungen: 01 Plátanus
+                                </language1_description>
+                                <language2>Platanengewächse</language2>
+                                <language2_description>SF216
+                                    Gattungen: 01 Platane
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Portulacáceae</language1>
+                                <language1_description>SF228
+                                    Gattungen: 01 Portuláca - Claytónia - 03 Móntia
+                                </language1_description>
+                                <language2>Portulakgewächse</language2>
+                                <language2_description>SF228
+                                    Gattungen: 01 Portulak - 02 Tellerkraut / Claytonie - 03 Quellkraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Primuláceae</language1>
+                                <language1_description>SF433
+                                    Gattungen: 01 Prímula - 02 Vitaliána - 03 Andrósace - 04 Cortúsa - 05 Soldanélla -
+                                    06 Hottónia - 07 Cyclámen - 08 Lysimáchia - 09 Trientális - 10 Gláúx - 11 Anagállis
+                                    - 12 Centúnculus - 13 Sámolus
+                                </language1_description>
+                                <language2>Primelgewächse</language2>
+                                <language2_description>SF433
+                                    Gattungen: 01 Primel / Schlüsselblume - 02 Goldprimel - 03 Mannsschild - 04
+                                    Heilglöckchen - 05 Troddelblume / Alpenglöckchen - 06 Wasserfeder - 07 Alpenveilchen
+                                    - 08 Gilbweiderich - 09 Siebenstern - 10 Milchkraut - 11 Gauchheil - 12 Kleinling -
+                                    13 Bunge
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Scrophulariáceae</language1>
+                                <language1_description>(incl. Buddlejaceae)
+                                    SF495
+                                </language1_description>
+                                <language2>Rachenblütler / Braunwurzgewächse</language2>
+                                <language2_description>SF495
+                                    siehe Braunwurzgewächse / Rachenblütler
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Boragináceae</language1>
+                                <language1_description>(incl. Hydrophyllaceae)
+                                    SF462
+                                    Gattungen: 01 Heliotrópium - 02 Asperúgo - 03 Láppula - 04 Eritríchium - 05
+                                    Amsínckia - 06 Omphalódes - 07 Brúnnera - 08 Cynoglóssum - 09 Lithospérmum - 10
+                                    Merténsia - 11 Myosótis - 12 Onósma - 13 Cerínthe - 14 Échium - 15 Anchúsa - 16
+                                    Nónea - 17 Pulmonária - 18 Sýmphytum - 19 Borágo - 20 Phacélia
+                                </language1_description>
+                                <language2>Raublattgewächse</language2>
+                                <language2_description>SF462
+                                    Gattungen: 01 Sonnenwende - 02 Scharfkraut - 03 Igelsame - 04 Himmelsherold - 05
+                                    Gelbe Klette - 06 Nabelnuss / Hundsvergissmeinnicht - 07 Kaukasusvergissmeinnicht -
+                                    08 Hundszunge - 09 Steinsame - 10 Mertensie - 11 Vergissmeinnicht - 12 Lotwurz - 13
+                                    Wachsblume - 14 Natternkopf - 15 Ochsenzunge - 16 Mönchskraut - 17 Lungenkraut - 18
+                                    Beinwell - 19 Boretsch - 20 Büschelschön
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Rutáceae</language1>
+                                <language1_description>SF424
+                                    Gattungen: 01 Rúta - 02 Dictámnus
+                                </language1_description>
+                                <language2>Rautengewächse</language2>
+                                <language2_description>SF424
+                                    Gattungen: 01 Raute / Weinraute - 02 Diptam
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Resedáceae</language1>
+                                <language1_description>SF418
+                                    Gattungen: 01 Reséda
+                                </language1_description>
+                                <language2>Resedagewächse</language2>
+                                <language2_description>SF418
+                                    Gattungen: 01 Wau / Resede
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Cyperáceae</language1>
+                                <language1_description>SF709</language1_description>
+                                <language2>Riedgräser / Sauergräser</language2>
+                                <language2_description>SF709
+                                    siehe Sauergräser / Riedgräser
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Blechnáceae</language1>
+                                <language1_description>SF181
+                                    Gattungen: 01 Bléchnum
+                                </language1_description>
+                                <language2>Rippenfarngewächse</language2>
+                                <language2_description>SF181
+                                    Gattungen: 01 Rippenfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Typháceae</language1>
+                                <language1_description>SF810
+                                    Gattungen: 01 Týpha
+                                </language1_description>
+                                <language2>Rohrkolbengewächse</language2>
+                                <language2_description>SF810
+                                    Gattungen: 01 Rohrkolben
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Rosáceae</language1>
+                                <language1_description>SF322
+                                    Gattungen: 01 Spiráéa - 02 Physocárpus - 03 Arúncus - 04 Filipéndula - 05 Agrimónia
+                                    - 06 Sanguisórba - 07 Aremónia - 08 Drýas - 09 Waldstéínia - 10 Géum - 11 Dasíphora
+                                    - 12 Cómarum - 13 Potentílla - 14 Fragária - 15 Sibbaldia - 16 Áphanes - 17
+                                    Alchemilla - 18 Rósa - 19 Rúbus - 20 Cydónia - 21 Chaenoméles - 22 Pýrus - 23 Málus
+                                    - 24 Sórbus - 25 Cratáégus - 26 Méspilus - 27 Amelánchier - 28 Cotoneáster - 29
+                                    Prúnus
+                                </language1_description>
+                                <language2>Rosengewächse</language2>
+                                <language2_description>SF322
+                                    Gattungen: 01 Spierstrauch - 02 Blasenspiere - 03 Geißbart - 04 Mädesüß - 05
+                                    Odermennig - 06 Wiesenknopf - 07 Aremonie - 08 Silberwurz - 09 Waldsteinie - 10
+                                    Nelkenwurz - 11 Fingerstrauch - 12 Blutauge - 13 Fingerkraut - 14 Erdbeere - 15
+                                    Gelbling - 16 Sinau - 17 Frauenmantel - 18 Rose - 19 Brombeere / Himbeere /
+                                    Steinbeere / Moltebeere - 20 Quitte - 21 Scheinquitte - 22 Birnbaum - 23 Apfelbaum -
+                                    24 Eberesche / Elsbeere / Mehlbeere / Vogelbeere - 25 Weißdorn - 26 Mispel - 27
+                                    Felsenbirne - 28 Zwergmispel - Kirsche / Pflaume / Aprikose / Pfirsich
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Rubiáceae</language1>
+                                <language1_description>SF449</language1_description>
+                                <language2>Rötegewächse / Krappgewächse</language2>
+                                <language2_description>SF449
+                                    siehe Krappgewächse / Rötegewächse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Cyperáceae</language1>
+                                <language1_description>SF709
+                                    Gattungen: 01 Cypérus - 02 Erióphorum - 03 Scírpus - 04 Eleócharis - 05 Schóénus -
+                                    06 Cládium - 07 Rhynchóspora - 08 Elýna - 09 Kobrésia - 10 Cárex
+                                </language1_description>
+                                <language2>Sauergräser / Riedgräser</language2>
+                                <language2_description>SF709
+                                    Gattungen: 01 Zyperngras - 02 Wollgras - 03 Simse / Binse - 04 Sumpfbinse /
+                                    Sumpfried - 05 Kopfried - 06 Schneide - 07 Schnabelried - 08 Nacktried - 09
+                                    Schuppenried - 10 Segge
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Oxalidáceae</language1>
+                                <language1_description>SF322
+                                    Gattungen: 01 Óxalis
+                                </language1_description>
+                                <language2>Sauerkleegewächse</language2>
+                                <language2_description>SF322
+                                    Gattungen: 01 Sauerklee
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Equisetáceae</language1>
+                                <language1_description>SF165
+                                    Gattungen: 01 Equisétum
+                                </language1_description>
+                                <language2>Schachtelhalmgewächse</language2>
+                                <language2_description>SF165
+                                    Gattungen: 01 Schachtelhalm
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Dioscoreáceae</language1>
+                                <language1_description>SF664
+                                    Gattungen: 01 Tàmus
+                                </language1_description>
+                                <language2>Schmerwurzgewächse</language2>
+                                <language2_description>SF664
+                                    Gattungen: 01 Schmerwurz
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Fabáceae (= Leguminosae, =Papilionáceae)</language1>
+                                <language1_description>SF352
+                                    Gattungen: 01 Lupínus - 02 Úlex - 03 Genísta - 04 Labúrnum - 05 Chamaespártium - 06
+                                    Cýtisus - 07 Chamaecýtisus - 08 Onónis - 09 Trigonélla - 10 Melilótus - 11 Medicágo
+                                    - 12 Trifólium - 13 Anthýllis - 14 Astrágalus - 15 Oxýtropis - 16 Dorýcnium - 17
+                                    Lótus - 18 Tetragonólobus - 19 Galéga - 20 Robínia - 21 Caragána - 22 Colútea - 23
+                                    Orníthopus - 24 Securígera - 25 Coronílla - 26 Hippocrépis - 27 Hedýsarum - 28
+                                    Onóbrychis - 29 Léns - 30 Vícia - 31Láthyrus - 32 Písum - 33 Phaséolus
+                                </language1_description>
+                                <language2>Schmetterlingsblütler</language2>
+                                <language2_description>SF352
+                                    Gattungen: 01 Lupine - 02 Stechginster - 03 Ginster - 04 Goldregen - 05
+                                    Flügelginster - 06 Geißklee - 07 Zwergginster - 08 Hauhechel - 09 Bockshornklee /
+                                    Schabziegerklee - 10 Steinklee - 11 Schneckenklee / Luzerne / Sichelklee /
+                                    Hopfenklee - 12 Klee - 13 Wundklee - 14 Tragant - 15 Spitzkiel - 16 Backenklee - 17
+                                    Hornklee - 18 Spargelbohne - 19 Geißraute - 20 Robinie / Scheinakazie - 21
+                                    Erbsenstrauch - 22 Blasenstrauch - 23 Vogelfuß - 24 Kronwicke - 25 Kronwicke - 26
+                                    Hufeisenklee - 27 Süßklee - 28 Esparsette - 29 Linse - 30 Wicke - 31 Platterbse - 32
+                                    Erbse - 33 Gartenbohne
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Butomáceae</language1>
+                                <language1_description>SF561
+                                    Gattungen: 01 Bútomus
+                                </language1_description>
+                                <language2>Schwanenblumengewächse</language2>
+                                <language2_description>SF651
+                                    Gattungen: 01 Schwanenblume
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Iridáceae</language1>
+                                <language1_description>SF677
+                                    Gattungen: 01 Iris - 02 Crócus - 03 Gladíolus - 03 Sisyrínchium
+                                </language1_description>
+                                <language2>Schwertliliengewächse</language2>
+                                <language2_description>SF677
+                                    Gattungen: 01 Schwertlilie - 02 Krokus - 03 Siegwurz / Gladiole - 04 Grasschwertel
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Salviniáceae</language1>
+                                <language1_description>SF182
+                                    Gattungen: 01 Salvínia
+                                </language1_description>
+                                <language2>Schwimmfarngewächse</language2>
+                                <language2_description>SF182
+                                    Gattungen: 01 Schwimmfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Nymphaeáceae</language1>
+                                <language1_description>SF188
+                                    Gattungen: 01 Nympháéa - 02 Núphar
+                                </language1_description>
+                                <language2>Seerosengewächse</language2>
+                                <language2_description>SF188
+                                    Gattungen: 01 Seerose - 02 Teichrose / Mummel
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Thymelaeáceae</language1>
+                                <language1_description>SF419
+                                    Gattungen: 01 Thymeláéa - 02 Dáphne
+                                </language1_description>
+                                <language2>Seidelbastgewächse</language2>
+                                <language2_description>SF419
+                                    Gattungen: 01 Spatzenzunge / Vogelkopf - 02 Seidelbast / Steinröschen / Kellerhals
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Orobancháceae</language1>
+                                <language1_description>SF498
+                                    Gattungen: 01 Pediculáris - 02 Bártsia - 03 Parentucéllia - 04 Odontítes - 05
+                                    Euphrásia - 06 Rhinánthus - 07 Melampýrum - 08 Tózzia - 09 Lathráéa - 10 Orobánche
+                                </language1_description>
+                                <language2>Sommerwurzgewächse</language2>
+                                <language2_description>SF498
+                                    Gattungen: 01 Läusekraut - 02 Alpenhelm - 03 Gelbe Bartsie - 04 Zahntrost - 05
+                                    Augentrost - 06 Klappertopf - 07 Wachtelweizen - 08 Alpenrachen - 09 Schuppenwurz -
+                                    10 Sommerwurz
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Droseráceae</language1>
+                                <language1_description>SF260
+                                    Gattungen: 01 Drósera - 02 Aldrovánda
+                                </language1_description>
+                                <language2>Sonnentaugewächse</language2>
+                                <language2_description>SF260
+                                    Gattungen: 01 Sonnentau - 02 Wasserfalle
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Celastráceae</language1>
+                                <language1_description>SF288
+                                    Gattungen: 01 Euónymus (= Evonymus)
+                                </language1_description>
+                                <language2>Spindelbaumgewächse</language2>
+                                <language2_description>SF288
+                                    Gattungen: 01 Pfaffenhütchen
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Grossulariáceae</language1>
+                                <language1_description>SF264
+                                    Gattungen: 01 Ríbes
+                                </language1_description>
+                                <language2>Stachelbeergewächse</language2>
+                                <language2_description>SF264
+                                    Gattungen: 01 Johannisbeere
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Aquifoliáceae</language1>
+                                <language1_description>SF532
+                                    Gattungen: 01 Ílex
+                                </language1_description>
+                                <language2>Stechpalmengewächse</language2>
+                                <language2_description>SF532
+                                    Gattungen: 01 Stechplame
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Saxifragáceae</language1>
+                                <language1_description>SF270
+                                    Gattungen: 01 Chrysosplénium - 02 Saxífraga
+                                </language1_description>
+                                <language2>Steinbrechgewächse</language2>
+                                <language2_description>SF270
+                                    Gattungen: 01 Milzkraut - 02 Steinbrech
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Geraniáceae</language1>
+                                <language1_description>SF278
+                                    Gattungen: 01 Geránium - 02 Eródium
+                                </language1_description>
+                                <language2>Storchschnabelgewächse</language2>
+                                <language2_description>SF278
+                                    Gattungen: 01 Storchschnabel - 02 Reiherschnabel
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Aspleniáceae</language1>
+                                <language1_description>SF173
+                                    Gattungen: 01 Asplénium
+                                </language1_description>
+                                <language2>Streifenfarngewächse</language2>
+                                <language2_description>SF173
+                                    Gattungen: 01 Streifenfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Anacardiáceae</language1>
+                                <language1_description>SF425
+                                    Gattungen: 01 Cótinus - 02 Rhús
+                                </language1_description>
+                                <language2>Sumachgewächse</language2>
+                                <language2_description>SF425
+                                    Gattungen: 01 Perückenstrauch - 02 Sumach
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Thelypteridáceae</language1>
+                                <language1_description>SF172
+                                    Gattungen: 01Oreópteris - 02 Phegópteris - 03 Thelýpteris
+                                </language1_description>
+                                <language2>Sumpffarngewächse</language2>
+                                <language2_description>SF172
+                                    Gattungen: 01Bergfarn - 02 Buchenfarn - 03 Sumpffarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Poáceae (= Gramineae) (1/3)</language1>
+                                <language1_description>SF743
+                                    Gattungen: 01 Brómus - 02 Festuca - 03 Vúlpia - 04 Catapódium - 05 Brachypódium - 06
+                                    Glycéria - 07 Scleróchloa - 08 Puccinéllia - 09 Scolóchloa - 10 Póa - 11 Bríza - 12
+                                    Catabrósa - 13 Dáctylis - 14 Cynosúrus - 15 Beckmánnia - 16 Mélica - 17 Oreóchloa -
+                                    18 Sesléria - 19 Lólium - 20 Molínia - 21 Agropýron - 22 Èlymus - 23 Sécale - 24
+                                    Tríticum - 25 Hórdeum
+                                </language1_description>
+                                <language2>Süßgräser (1/3)</language2>
+                                <language2_description>SF743
+                                    Gattungen: 01 Trespe - 02 Schwingel - 03 Federschwingel - 04 Steifgras - 05 Zwenke -
+                                    06 Schwaden - 07 Hartgras - 08 Salzschwaden - 09 Schwingelschilf - 10 Rispengras -
+                                    11 Zittergras - 12 Quellgras - 13 Knäuelgras - 14 Kammgras - 15 Doppelährengras - 16
+                                    Perlgras - 17 Kopfgras - 18 Blaugras - 19 Lorch / Raygras / Weidelgras - 20
+                                    Pfeifengras - 21 Kammquecke - 22 Quecke - 23 Roggen - 24 Weizen - 25 Gerste
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Tamaricáceae</language1>
+                                <language1_description>SF261
+                                    Gattungen: 01 Myricária
+                                </language1_description>
+                                <language2>Tamariskengewächse</language2>
+                                <language2_description>SF261
+                                    Gattungen: 01 Deutsche Tamariske
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Elatináceae</language1>
+                                <language1_description>SF288
+                                    Gattungen: 01 Elatíne
+                                </language1_description>
+                                <language2>Tännelgewächse</language2>
+                                <language2_description>SF288
+                                    Gattungen: 01 Tännel
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Haloragáceae</language1>
+                                <language1_description>SF276
+                                    Gattungen: 01 Myriophýllum
+                                </language1_description>
+                                <language2>Tausendblattgewächse</language2>
+                                <language2_description>SF276
+                                    Gattungen: 01 Tausendblatt
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Polypodiáceae</language1>
+                                <language1_description>SF181
+                                    Gattungen: 01 Polypódium
+                                </language1_description>
+                                <language2>Tüpfelfarngewächse</language2>
+                                <language2_description>SF181
+                                    Gattungen: 01 Tüpfelfarn / Engelsüß
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Ulmáceae</language1>
+                                <language1_description>SF349
+                                    Gattungen: 01 Úlmus
+                                </language1_description>
+                                <language2>Ulmengewächse</language2>
+                                <language2_description>SF349
+                                    Gattungen: 01 Ulme / Rüster
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Lentibulariáceae</language1>
+                                <language1_description>SF530
+                                    Gattungen: 01 Pinguícula - 02 Utriculária
+                                </language1_description>
+                                <language2>Wasserschlauchgewächse</language2>
+                                <language2_description>SF530
+                                    Gattungen: 01 Fettkraut - 02 Wasserschlauch
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Plantagináceae</language1>
+                                <language1_description>(incl. Callitrichaceae, Hippuridaceae, Veronicaceae u.
+                                    Globulariaceae)
+                                    SF513
+                                    Gattungen: 01 Antirrhínum - 02 Asarína - 03 Cymbalária - 04 Linária - 05 Kíckxia -
+                                    06 Chaenorhínum - 07 Anarrhínum - 08 Gratíola - 09 Limosélla - 10 Lindérnia - 11
+                                    Digitális - 12 Érinus - 13 Paederóta - 14 Wulfénia - 15 Verónica - 16 Globulária -
+                                    17 Psýllium - 18 Plantágo - 19 Littorélla - 20 Hippúris - 21 Callítriche
+                                </language1_description>
+                                <language2>Wegerichgewächse</language2>
+                                <language2_description>SF513
+                                    Gattungen: 01 Löwenmaul - 02 Kriechendes Löwenmaul - 03 Zimbelkraut - 04 Leinkraut -
+                                    05 Tännelkraut / Schlangenmaul - 06 Orant - 07 Lochschlund - 08 Gnadenkraut - 09
+                                    Schlammkraut / Schlammling - 10 Büchsenkraut - 11 Fingerhut - 12 Alpenbalsam - 13
+                                    Mänderle - 14 Kühtritt / Wulfenie - 15 Ehrenpreis - 16 Kugelblume - 17 Flohsame /
+                                    Sandwegerich - 18 Wegerich - 19 Strandling - 20 Tannenwedel - 21 Wasserstern
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Salicáceae</language1>
+                                <language1_description>SF296
+                                    Gattungen: 01 Pópulus - 02 Sálix
+                                </language1_description>
+                                <language2>Weidengewächse</language2>
+                                <language2_description>SF296
+                                    Gattungen: 01 Pappel - 02 Weide
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Vitáceae</language1>
+                                <language1_description>SF277
+                                    Gattungen: 01 Vítis - 02 Parthenocíssus
+                                </language1_description>
+                                <language2>Weinrebengewächse</language2>
+                                <language2_description>SF277
+                                    Gattungen: 01 Weinrebe - 02 Jungfernrebe / Wilder Wein
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Convolvuláceae</language1>
+                                <language1_description>(incl. Cuscutáceae)
+                                    SF456
+                                    Gattungen: 01 Calystégia - 02 Convólvulus - 03 Ipomóéa - 04 Cúscuta
+                                </language1_description>
+                                <language2>Windengewächse</language2>
+                                <language2_description>SF456
+                                    Gattungen: 01 Zaunwinde - 02 Winde - 03 Trichterwinde - 04 Seide / Teufelszwirn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Euphorbiáceae</language1>
+                                <language1_description>SF317
+                                    Gattungen: 01 Mercuriális - 02 Euphórbia
+                                </language1_description>
+                                <language2>Wolfsmilchgewächse</language2>
+                                <language2_description>SF317
+                                    Gattungen: 01 Bingelkraut - 02 Wolfsmilch
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Cupressáceae</language1>
+                                <language1_description>SF186
+                                    Gattungen: 01 Thúja - 02 Chamaecýparis - 03 Juníperus
+                                </language1_description>
+                                <language2>Zypressengewächse</language2>
+                                <language2_description>SF186
+                                    Gattungen: 01 Lebensbaum - 02 Scheinzypresse - 03 Wacholder
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Juglandáceae</language1>
+                                <language1_description>SF385
+                                    Gattungen: 01 Júglans
+                                </language1_description>
+                                <language2>Walnussgewächse</language2>
+                                <language2_description>SF385
+                                    Gattungen: 01 Walnuss
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Die Kartei "Pflanzenfamilien" wurde mit Hilfe des umseitig genannten
+                                    Bestimmungsbuches erstellt.
+                                </language1>
+                                <language1_description>23.03.06</language1_description>
+                                <language2>Schmeil-Fitschen</language2>
+                                <language2_description>"Flora von Deutschland und angrenzender Länder"
+                                    Quelle &amp; Meyer Verlag
+                                    93. völlig überarbeitete und erweiterte Auflage, 2006
+                                    ISBN 3-494-01328-4
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Adiantáceae</language1>
+                                <language1_description>SF 172
+                                    Gattungen: 01 Cheilanthes - 02 Cryptográmma
+                                </language1_description>
+                                <language2>Venushaarfarngewächse</language2>
+                                <language2_description>SF 172
+                                    Gattungen: 01 Pelzfarn - 02 Rollfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Woodsiáceae</language1>
+                                <language1_description>SF 176
+                                    Gattungen: 01 Matteúccia - 02 Woódsia - 03 Athýrium - 04 Cystópteris - 05
+                                    Gymnocárpium
+                                </language1_description>
+                                <language2>Wimperfarngewächse</language2>
+                                <language2_description>SF 176
+                                    Gattungen: 01 Straußfarn - 02 Wimperfarn - 03 Frauenfarn - 04 Blasenfarn - 05
+                                    Eichenfarn / Ruprechtsfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Dryopteridáceae (= Aspidiaceae)</language1>
+                                <language1_description>SF 178
+                                    Gattungen: 01 Polýstichum - 02 Dryópteris
+                                </language1_description>
+                                <language2>Wurmfarngewächse</language2>
+                                <language2_description>SF 178
+                                    Gattungen: 01 Schildfarn - 02 Wurmfarn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Taxáceae</language1>
+                                <language1_description>SF 187
+                                    Gattungen: 01 Táxus
+                                </language1_description>
+                                <language2>Eibengewächse</language2>
+                                <language2_description>SF 187
+                                    Gattungen: 01 Eibe
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Amarantháceae</language1>
+                                <language1_description>(incl. Chenopodiaceae)
+                                    SF216
+                                    Gattungen: 01 Polycnémum - 02 Béta - 03 Chenopódium - 04 Spinácia - 05 Halimióne -
+                                    06 Átriplex - 07 Krascheninnikóvia - 08 Camphorósma - 09 Bássia - 10 Corispérmum -
+                                    11 Salicórnia - 12 Suáéda - 13 Sálsola - 14 Amaránthus
+                                </language1_description>
+                                <language2>Amarantgewächse</language2>
+                                <language2_description>SF216
+                                    Gattungen: 01 Knorpelkraut - 02 Rübe - 03 Gänsefuß - 04 Spinat - 05 Salzmelde /
+                                    Keilmelde - 06 Melde - 07 Hornmelde - 08 Kampferkraut - 09 Radmelde - 10 Wanzensame
+                                    - 11 Glasschmalz / Queller - 12 Sode - 13 Salzkraut - 14 Fuchsschwanz / Amarant
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Lorantháceae</language1>
+                                <language1_description>SF264
+                                    Gattungen: 01 Loránthus
+                                </language1_description>
+                                <language2>Riemenblumengewächse</language2>
+                                <language2_description>SF264
+                                    Gattungen: 01 Riemenblume
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Zygophylláceae</language1>
+                                <language1_description>SF287
+                                    Gattungen: 01 Tribulus
+                                </language1_description>
+                                <language2>Jochblattgewächse</language2>
+                                <language2_description>SF287
+                                    Gattungen: 01 Burzeldorn
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Violáceae</language1>
+                                <language1_description>SF291
+                                    Gattungen: 01 Vióla
+                                </language1_description>
+                                <language2>Veilchengewächse</language2>
+                                <language2_description>SF291
+                                    Gattungen: 01 Veilchen
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Cistáceae</language1>
+                                <language1_description>SF420
+                                    Gattungen: 01 Tuberária - 02 Heliánthemum - 03 Fumána
+                                </language1_description>
+                                <language2>Zistrosengewächse</language2>
+                                <language2_description>SF420
+                                    Gattungen: 01 Sandröschen - 02 Sonnenröschen - 03 Zwerg-Sonnenröschen
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Sapindáceae</language1>
+                                <language1_description>(incl. Aceraceae u. Hippocastanaceae)
+                                    SF425
+                                    Gattungen: 01 Ácer - 02 Àésculus
+                                </language1_description>
+                                <language2>Seifenbaumgewächse</language2>
+                                <language2_description>SF425
+                                    Gattungen: 01 Ahorn - 02 Rosskastanie
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hydrangeáceae</language1>
+                                <language1_description>SF427
+                                    Gattungen: 01 Philadélphus
+                                </language1_description>
+                                <language2>Hortensiengewächse</language2>
+                                <language2_description>SF427
+                                    Gattungen: 01 Pfeifenstrauch / Falscher Jasmin
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Polemoniáceae</language1>
+                                <language1_description>SF440
+                                    Gattungen: 01 Polemónium - 02 Collómia
+                                </language1_description>
+                                <language2>Himmelsleitergewächse</language2>
+                                <language2_description>SF440
+                                    Gattungen: 01 Himmelsleiter - 02 Leimsaat
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Phrymáceae</language1>
+                                <language1_description>SF530
+                                    Gattungen: 01 Mímulus
+                                </language1_description>
+                                <language2>Gauklerblumengewächse</language2>
+                                <language2_description>SF530
+                                    Gattungen: 01 Gauklerblume
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Diervilláceae</language1>
+                                <language1_description>SF534
+                                    Gattungen: 01 Wéígela
+                                </language1_description>
+                                <language2>Weigeliengewächse</language2>
+                                <language2_description>SF534
+                                    Gattungen: 01 Weigelie
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Linnaeáceae</language1>
+                                <language1_description>SF535
+                                    Gattungen: 01 Linnáéa
+                                </language1_description>
+                                <language2>Moosglöckchengewächse</language2>
+                                <language2_description>SF535
+                                    Gattungen: 01 Moosglöckchen
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Acoráceae</language1>
+                                <language1_description>SF651
+                                    Gattungen: 01 Ácorus
+                                </language1_description>
+                                <language2>Kalmusgewächse</language2>
+                                <language2_description>SF651
+                                    Gattungen: 01 Kalmus
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Juncagináceae</language1>
+                                <language1_description>SF655
+                                    Gattungen: 01 Triglóchin
+                                </language1_description>
+                                <language2>Dreizackgewächse</language2>
+                                <language2_description>SF655
+                                    Gattungen: 01 Dreizack
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Ruppiáceae</language1>
+                                <language1_description>SF660
+                                    Gattungen: 01 Rúppia
+                                </language1_description>
+                                <language2>Saldengewächse</language2>
+                                <language2_description>SF660
+                                    Gattungen: 01 Salde
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Zosteráceae</language1>
+                                <language1_description>SF660
+                                    Gattungen: 01 Zostéra
+                                </language1_description>
+                                <language2>Seegrasgewächse</language2>
+                                <language2_description>SF660
+                                    Gattungen: 01 Seegras
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Tofieldiáceae</language1>
+                                <language1_description>SF661
+                                    Gattungen: 01 Tofiéldia
+                                </language1_description>
+                                <language2>Simsenliliengewächse</language2>
+                                <language2_description>SF661
+                                    Gattungen: 01 Simsenlilie
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Nartheciáceae</language1>
+                                <language1_description>SF664
+                                    Gattungen: 01 Narthécium
+                                </language1_description>
+                                <language2>Beinbrechgewächse</language2>
+                                <language2_description>SF664
+                                    Gattungen: 01 Beinbrech
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Melanthiáceae</language1>
+                                <language1_description>(incl. Trilliaceae)
+                                    SF667
+                                    Gattungen: 01 Verátrum - 02 Páris
+                                </language1_description>
+                                <language2>Einbeerengewächse</language2>
+                                <language2_description>SF667
+                                    Gattungen: 01 Germer - 02 Einbeere
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Colchicáceae</language1>
+                                <language1_description>SF667
+                                    Gattungen: 01 Cólchicum - 02 Bulbocódium
+                                </language1_description>
+                                <language2>Herbstzeitlosengewächse</language2>
+                                <language2_description>SF667
+                                    Gattungen: 01 Herbstzeitlose - 02 Lichtblume
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Asphodeláceae</language1>
+                                <language1_description>SF668
+                                    Gattungen: 01 Anthéricum - 02 Paradísea
+                                </language1_description>
+                                <language2>Affodillgewächse</language2>
+                                <language2_description>SF668
+                                    Gattungen: 01 Graslilie - 02 Trichterlilie
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hemerocallidáceae</language1>
+                                <language1_description>SF668
+                                    Gattungen: 01 Hemerocállis
+                                </language1_description>
+                                <language2>Tagliliengewächse</language2>
+                                <language2_description>SF668
+                                    Gattungen: 01 Taglilie
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Asparagáceae</language1>
+                                <language1_description>SF668
+                                    Gattungen: 01 Hyacinthoídes - 02 Scílla - 03 Ornithógalum - 04 Múscari - 05
+                                    Aspáragus - 06 Rúscus - 07 Maiánthemum - 08 Polygonátum - 09 Stréptopus - 10
+                                    Convallária
+                                </language1_description>
+                                <language2>Spargelgewächse</language2>
+                                <language2_description>SF668
+                                    Gattungen: 01 Hasenglöckchen - 02 Blaustern - 03 Milchstern - 04 Traubenhyazinthe /
+                                    Träubelhyazinthe - 05 Spargel - 06 Mäusedorn - 07 Schattenblume - 08 Weißwurz /
+                                    Salomonssiegel - 09 Knotenfuß - 10 Maiglöckchen / Maiblume
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Alliáceae</language1>
+                                <language1_description>SF673
+                                    Gattungen: 01 Állium
+                                </language1_description>
+                                <language2>Lauchgewächse</language2>
+                                <language2_description>SF673
+                                    Gattungen: 01 Lauch
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Scrophulariáceae</language1>
+                                <language1_description>(incl. Buddlejaceae)
+                                    SF495
+                                    Gattungen: 01 Verbáscum - 02 Scrophulária - 03 Buddléja
+                                </language1_description>
+                                <language2>Braunwurzgewächse / Rachenblütler</language2>
+                                <language2_description>SF495
+                                    Gattungen: 01 Königskerze - 02 Braunwurz - 03 Sommerflieder / Fliederspeer
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Orchidáceae</language1>
+                                <language1_description>SF680</language1_description>
+                                <language2>Knabenkrautgewächse / Orchideen</language2>
+                                <language2_description>SF680
+                                    siehe Orchideen / Knabenkrautgewächse
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Hypericáceae</language1>
+                                <language1_description>SF289
+                                    Gattungen: 01 Hypéricum
+                                </language1_description>
+                                <language2>Hartheu- oder Johanniskrautgewächse</language2>
+                                <language2_description>SF289
+                                    Gattungen: 01 Johanniskraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Chenopodiaceae</language1>
+                                <language1_description>neu eingegliedert unter Amarantháceae
+                                    SF216
+                                </language1_description>
+                                <language2>Gänsefußgewächse</language2>
+                                <language2_description>neu eingegliedert unter Amarantgewächse
+                                    SF 216
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Tiliaceae</language1>
+                                <language1_description>neu eingegliedert unter Malváceae
+                                    SF421
+                                </language1_description>
+                                <language2>Lindengewächse</language2>
+                                <language2_description>neu eingegliedert unter Malvengewächse
+                                    SF421
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Lemnaceae</language1>
+                                <language1_description>neu eingegliedert unter Aráceae
+                                    SF661
+                                </language1_description>
+                                <language2>Wasserlinsengewächse</language2>
+                                <language2_description>neu eingegliedert unter Aronstabgewächse
+                                    SF661
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Asclepiadaceae</language1>
+                                <language1_description>neu eingegliedert unter Apocynáceae
+                                    SF448
+                                </language1_description>
+                                <language2>Schwalbenwurzgewächse</language2>
+                                <language2_description>neu eingegliedert unter Immergrüngewächse
+                                    SF448
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Trapaceae</language1>
+                                <language1_description>neu eingegliedert unter Lythráceae
+                                    SF282
+                                </language1_description>
+                                <language2>Wassernussgewächse</language2>
+                                <language2_description>neu eingegliedert unter Blutweiderichgewächse
+                                    SF282
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Aceraceae</language1>
+                                <language1_description>neu eingegliedert unter Sapindáceae
+                                    SF425
+                                </language1_description>
+                                <language2>Ahorngewächse</language2>
+                                <language2_description>neu eingegliedert unter Seifenbaumgewächse
+                                    SF425
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hippocastanaceae</language1>
+                                <language1_description>neu eingegliedert unter Sapindáceae
+                                    SF425
+                                </language1_description>
+                                <language2>Rosskastaniengewächse</language2>
+                                <language2_description>neu eingegliedert unter Seifenbaumgewächse
+                                    SF425
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hydrophyllaceae</language1>
+                                <language1_description>neu eingegliedert unter Boragináceae
+                                    SF462
+                                </language1_description>
+                                <language2>Wasserblattgewächse</language2>
+                                <language2_description>neu eingegliedert unter Raublattgewächse
+                                    SF462
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Corylaceae</language1>
+                                <language1_description>neu eingegliedert unter Betuláceae
+                                    SF383
+                                </language1_description>
+                                <language2>Haselnussgewächse</language2>
+                                <language2_description>neu eingegliedert unter Birkengewächse
+                                    SF383
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Callitrichaceae</language1>
+                                <language1_description>neu eingegliedert unter Plantagináceae
+                                    SF513
+                                </language1_description>
+                                <language2>Wassersterngewächse</language2>
+                                <language2_description>neu eingegliedert unter Wegerichgewächse
+                                    SF513
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Hippuridaceae</language1>
+                                <language1_description>neu eingegliedert unter Plantagináceae
+                                    SF513
+                                </language1_description>
+                                <language2>Tannenwedelgewächse</language2>
+                                <language2_description>neu eingegliedert unter Wegerichgewächse
+                                    SF513
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Globulariaceae</language1>
+                                <language1_description>neu eingegliedert unter Plantagináceae
+                                    SF513
+                                </language1_description>
+                                <language2>Kugelblumengewächse</language2>
+                                <language2_description>neu eingegliedert unter Wegerichgewächse
+                                    SF513
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Pyrolaceae</language1>
+                                <language1_description>neu eingegliedert unter Ericáceae
+                                    SF428
+                                </language1_description>
+                                <language2>Wintergrüngewächse</language2>
+                                <language2_description>neu eingegliedert unter Heidekrautgewächse
+                                    SF428
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Monotropaceae</language1>
+                                <language1_description>neu eingegliedert unter Ericáceae
+                                    SF428
+                                </language1_description>
+                                <language2>Fichtenspargelwächse</language2>
+                                <language2_description>neu eingegliedert unter Heidekrautgewächse
+                                    SF428
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Empetraceae</language1>
+                                <language1_description>neu eingegliedert unter Ericáceae
+                                    SF428
+                                </language1_description>
+                                <language2>Krähenbeerengewächse</language2>
+                                <language2_description>neu eingegliedert unter Heidekrautgewächse
+                                    SF428
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Najadaceae</language1>
+                                <language1_description>neu eingegliedert unter Hydrocharitáceae
+                                    SF653
+                                </language1_description>
+                                <language2>Nixenkrautgewächse</language2>
+                                <language2_description>neu eingegliedert unter Froschbissgewächse
+                                    SF653
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Celtis</language1>
+                                <language1_description>nicht mehr unter Ulmaceae
+                                    neu eingegliedert unter Cannabáceae
+                                    SF350
+                                </language1_description>
+                                <language2>Gattung Zürgelbaum</language2>
+                                <language2_description>nicht mehr unter Ulmengewächse
+                                    neu eingegliedert unter Hanfgewächse
+                                    SF350
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Viscum</language1>
+                                <language1_description>nicht mehr unter Loranthaceae
+                                    neu eingegliedert unter Santaláceae
+                                    SF262
+                                </language1_description>
+                                <language2>Gattung Mistel</language2>
+                                <language2_description>nicht mehr unter Mistelgewächse
+                                    neu eingegliedert unter Leinblattgewächse
+                                    SF262
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Hydrocótyle</language1>
+                                <language1_description>nicht mehr unter Apiaceae
+                                    neu eingegliedert unter Araliáceae
+                                    SF543
+                                </language1_description>
+                                <language2>Gattung Wassernabel</language2>
+                                <language2_description>nicht mehr unter Doldenblütler
+                                    neu eingegliedert unter Efeugewächse
+                                    SF543
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Ácorus</language1>
+                                <language1_description>nicht mehr unter Aráceae
+                                    neu eingegliedert unter Acoráceae
+                                    SF651
+                                </language1_description>
+                                <language2>Gattung Kalmus</language2>
+                                <language2_description>nicht mehr unter Aronstabgewächse
+                                    neu eingegliedert unter Kalmusgewächse
+                                    SF651
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Buddlejáceae</language1>
+                                <language1_description>neu eingegliedert unter Scrophuláriaceae
+                                    SF495
+                                </language1_description>
+                                <language2>Sommerfliedergewächse</language2>
+                                <language2_description>neu eingegliedert unter Rachenblütler / Braunwurzgewächsen
+                                    SF495
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Mímulus</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    jetzt eigenständige Familie Phrymáceae
+                                    SF530
+                                </language1_description>
+                                <language2>Gattung Gauklerblume</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    jetzt eigenständige Familie Gauklerblumengewächse
+                                    SF530
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Euphrásia</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF503
+                                </language1_description>
+                                <language2>Gattung Augentrost</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF503
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Rhinánthus</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF505
+                                </language1_description>
+                                <language2>Gattung Klappertopf</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF505
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Gattung Bártsia</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF502
+                                </language1_description>
+                                <language2>Gattung Alpenhelm</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF502
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Pediculáris</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF499
+                                </language1_description>
+                                <language2>Gattung Läusekraut</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF499
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Parentucéllia</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF502
+                                </language1_description>
+                                <language2>Gattung Gelbe Bartsie</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF502
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Odontítes</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF502
+                                </language1_description>
+                                <language2>Gattung Zahntrost</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF502
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Tózzia</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF507
+                                </language1_description>
+                                <language2>Gattung Alpenrachen</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF507
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Melampýrum</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF506
+                                </language1_description>
+                                <language2>Gattung Wachtelweizen</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF506
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Lathráéa</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Orobancháceae
+                                    SF507
+                                </language1_description>
+                                <language2>Gattung Schuppenwurz</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Sommerwurzgewächse
+                                    SF507
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Linária</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF515
+                                </language1_description>
+                                <language2>Gattung Leinkraut</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF515
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Chaenorhínum</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF517
+                                </language1_description>
+                                <language2>Gattung Orant</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF517
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Asarína</language1>
+                                <language1_description>neu unter Plantagináceae
+                                    SF515
+                                </language1_description>
+                                <language2>Gattung Kriechendes Löwenmaul</language2>
+                                <language2_description>neu unter Wegerichgewächse
+                                    SF515
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Antirrhínum</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF515
+                                </language1_description>
+                                <language2>Gattung Löwenmaul</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Weiderichgewächse
+                                    SF515
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Anarrhínum</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF517
+                                </language1_description>
+                                <language2>Gattung Lochschlund</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Weiderichgewächse
+                                    SF517
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Kíckxia</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF516
+                                </language1_description>
+                                <language2>Gattung Tännelkraut / Schlangenmaul</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF516
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Digitális</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF518
+                                </language1_description>
+                                <language2>Gattung Fingerhut</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF518
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Limosélla</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF517
+                                </language1_description>
+                                <language2>Gattung Schlammkraut / Schlammling</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF517
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Lindérnia</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF517
+                                </language1_description>
+                                <language2>Gattung Büchsenkraut</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF517
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Gratíola</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF517
+                                </language1_description>
+                                <language2>Gattung Gnadenkraut</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF517
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Érinus</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF518
+                                </language1_description>
+                                <language2>Gattung Alpenbalsam</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF518
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Wulfénia</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF518
+                                </language1_description>
+                                <language2>Gattung Kühtritt / Wulfenie</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Weiderichgewächse
+                                    SF518
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Paederóta</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF518
+                                </language1_description>
+                                <language2>Gattung Mänderle</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF518
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Verónica</language1>
+                                <language1_description>nicht mehr unter Scrophulariáceae
+                                    neu eingegliedert unter Plantagináceae
+                                    SF519
+                                </language1_description>
+                                <language2>Gattung Ehrenpreis</language2>
+                                <language2_description>nicht mehr unter Rachenblütler
+                                    neu eingegliedert unter Wegerichgewächse
+                                    SF519
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Állium</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu eingegliedert unter Alliáceae
+                                    SF673
+                                </language1_description>
+                                <language2>Gattung Lauch</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu eingegliedert unter Lauchgewächse
+                                    SF673
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Tofiéldia</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Tofieldiáceae
+                                    SF661
+                                </language1_description>
+                                <language2>Gattung Simsenlilie</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Simsenliliengewächse
+                                    SF661
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Narthécium</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Nartheciáceae
+                                    SF664
+                                </language1_description>
+                                <language2>Gattung Beinbrech</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Beinbrechgewächse
+                                    SF664
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Páris</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Melanthíaceae
+                                    SF667
+                                </language1_description>
+                                <language2>Gattung Einbeere</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Einbeerengewächse
+                                    SF667
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Gattung Verátrum</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Melanthíaceae
+                                    SF667
+                                </language1_description>
+                                <language2>Gattung Germer</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Einbeerengewächse
+                                    SF667
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Cólchicum</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Colchicáceae
+                                    SF667
+                                </language1_description>
+                                <language2>Gattung Herbstzeitlose (bisher Zeitlose)</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Herbstzeitlosengewächse
+                                    SF667
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Bulbocódium</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Colchicáceae
+                                    SF667
+                                </language1_description>
+                                <language2>Gattung Lichtblume</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Herbstzeitlosengewächse
+                                    SF667
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Hemerocállis</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Hemerocallidáceae
+                                    SF668
+                                </language1_description>
+                                <language2>Gattung Taglilie</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Tagliliengewächse
+                                    SF668
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Anthéricum</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asphodeláceae
+                                    SF668
+                                </language1_description>
+                                <language2>Gattung Graslilie</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Affodillgewächse
+                                    SF668
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Paradísia</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asphodeláceae
+                                    SF668
+                                </language1_description>
+                                <language2>Gattung Trichterlilie</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Affodillgewächse
+                                    SF668
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Aspáragus</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF671
+                                </language1_description>
+                                <language2>Gattung Spargel</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF671
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Rúscus</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF672
+                                </language1_description>
+                                <language2>Gattung Mäusedorn</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF672
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Polygonátum</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF672
+                                </language1_description>
+                                <language2>Gattung Weißwurz / Salomonsiegel</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF672
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Convallária</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF672
+                                </language1_description>
+                                <language2>Gattung Maiblume / Maiglöckchen</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF672
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Stréptopus</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF672
+                                </language1_description>
+                                <language2>Gattung Knotenfuß</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF672
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Maiánthemum</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF672
+                                </language1_description>
+                                <language2>Gattung Schattenblume</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF672
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Múscari</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF671
+                                </language1_description>
+                                <language2>Gattung Träubelhyazinthe / Traubenhyazinthe</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF671
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Ornithógalum</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF670
+                                </language1_description>
+                                <language2>Gattung Milchstern</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF670
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Scílla</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF669
+                                </language1_description>
+                                <language2>Gattung Blaustern</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF669
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Hyacinthoídes</language1>
+                                <language1_description>nicht mehr unter Liliáceae
+                                    neu unter Asparagáceae
+                                    SF669
+                                </language1_description>
+                                <language2>Gattung Hasenglöckchen</language2>
+                                <language2_description>nicht mehr unter Liliengewächse
+                                    neu unter Spargelgewächse
+                                    SF669
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Sambúcus</language1>
+                                <language1_description>nicht mehr unter Caprifoliáceae
+                                    eingegliedert unter Adoxáceae
+                                    SF533
+                                </language1_description>
+                                <language2>Gattung Holunder</language2>
+                                <language2_description>nicht mehr unter Geißblattgewächse
+                                    eingegliedert unter Moschuskrautgewächse
+                                    SF533
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Vibúrnum</language1>
+                                <language1_description>nicht mehr unter Caprifoliáceae
+                                    eingegliedert unter Adoxáceae
+                                    SF533
+                                </language1_description>
+                                <language2>Gattung Schneeball</language2>
+                                <language2_description>nicht mehr unter Geißblattgewächse
+                                    eingegliedert unter Moschuskrautgewächse
+                                    SF533
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Wéígela</language1>
+                                <language1_description>nicht mehr unter Caprifoliáceae
+                                    neu unter Diervilláceae
+                                    SF534
+                                </language1_description>
+                                <language2>Gattung Weigelie</language2>
+                                <language2_description>nicht mehr unter Geißblattgewächse
+                                    neu unter Weigeliengewächse
+                                    SF534
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Linnáéa</language1>
+                                <language1_description>nicht mehr unter Caprifoliáceae
+                                    neu unter Linnaeáceae
+                                    SF535
+                                </language1_description>
+                                <language2>Gattung Moosglöckchen</language2>
+                                <language2_description>nicht mehr unter Geißblattgewächse
+                                    neu unter Moosglöckchengewächse
+                                    SF535
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Apiáceae (= Umbelliférae) (2/2)</language1>
+                                <language1_description>SF543
+                                    Gattungen: 26 Cárum - 27 Búnium - 28 Conopódium - 29 Pimpinélla - 30 Aegopódium - 31
+                                    Síum - 32 Críthmum - 33 Séseli - 34 Libanótis - 35 Oenánthe - 36 Aethúsa - 37
+                                    Athamánta - 38 Foenículum - 39 Anéthum - 40 Sílaum - 41 Méum - 42 Selínum - 43
+                                    Ligústicum - 44 Cenolóphium - 45 Conioselínum - 46 Angélica - 47 Levísticum - 48
+                                    Peucédanum - 49 Pastináca - 50 Heracléum - 51 Tordýlium - 52 Láser - 53 Laserpítium
+                                    - 54 Dáúcus
+                                </language1_description>
+                                <language2>Doldenblütler (2/2)</language2>
+                                <language2_description>SF543
+                                    Gattungen: 26 Kümmel - 27 Knollenkümmel - 28 Französische Erdkastanie - 29
+                                    Bibernelle - 30 Geißfuß / Giersch - 31 Merk - 32 Meerfenchel - 33 Sesel - 34
+                                    Heilwurz - 35 Wasserfenchel / Rebendolde / Pferdesaat - 36 Hundspetersilie - 37
+                                    Augenwurz - 38 Fenchel - 39 Dill - 40 Wiesensilge / Rossfenschel - 41 Bärwurz - 42
+                                    Silge - 43 Mutterwurz - 44 Hohlrippe - 45 Schierlingssilge - 46 Engelwurz /
+                                    Brustwurz - 47 Liebstöckel - 48 Haarstrang - 49 Pastinak - 50 Bärenklau - 51 Zirmet
+                                    / Drehkraut - 52 Rosskümmel - 53 Laserkraut - 54 Möhre
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Asteráceae (= Composítae) (1/3)</language1>
+                                <language1_description>SF576
+                                    Gattungen: 01 Agératum - 02 Eupatórium - 03 Solidágo - 04 Béllis - 05 Áster - 06
+                                    Erígeron - 07 Conýza - 08 Mícropus - 09 Filágo - 10 Antennária - 11 Leontopódium -
+                                    12 Anáphalis - 13 Gnaphálium - 14 Helichrýsum - 15 Ínula - 16 Dittríchia - 17
+                                    Pulicária - 18 Carpésium - 19 Buphthálmum - 20 Telékia - 21 Sílphium - 22 Íva - 23
+                                    Ambrósia - 24 Xánthium - 25 Sigesbéckia - 26 Rudbéckia - 27 Heliánthus - 28
+                                    Verbesína - 29 Heliópsis - 30 Eriophýllum
+                                </language1_description>
+                                <language2>Korbblütler / Köpfchenblütler (1/3)</language2>
+                                <language2_description>SF576
+                                    Gattungen: 01 Leberbalsam 02 - Wasserdost / Wasserhanf - 03 Goldrute - 04
+                                    Gänseblümchen - 05 Aster - 06 Berufkraut / Feinstrahl - 07 Berufkraut /
+                                    Katzenschweif - 08 Falzblume - 09 Fadenkraut / Filzkraut - 10 Katzenpfötchen - 11
+                                    Edelweiß - 12 Perlkraut / Silberimmortelle - 13 Ruhrkraut - 14 Strohblume - 15 Alant
+                                    - 16 Klebriger Alant - 17 Flohkraut - 18 Kragenblume - 19 Ochsenauge - 20 Telekie -
+                                    21 Becherpflanze - 22 Schlagkraut - 23 Ambrosie / Traubenkraut - 24 Spitzklette - 25
+                                    Siegesbeckie - 26 Sonnenhut - 27 Sonnenblume - 28 Verbesie - 29 Sonnenauge - 30
+                                    Wollblatt
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Asteráceae (= Composítae) (3/3)</language1>
+                                <language1_description>SF576
+                                    Gattungen: 61 Árctium - 62 Saussúrea - 63 Jurínea - 64 Cárduus - 65 Círsium - 66
+                                    Sílybum - 67 Onopórdum - 68 Serrátula - 69 Leuzéa - 70 Acróptilon - 71 Centauréa -
+                                    72 Cárthamus - 73 Cnícus - 74 Cichórium - 75 Lápsana - 76 Apóseris - 77 Arnóseris -
+                                    78 Hypocháéris - 79 Leóntodon - 80 Pícris - 81 Tragopógon - 82 Scorzonéra - 83
+                                    Podospérmum - 84 Chondrílla - 85 Willemetia - 86 Taraxácum - 87 Cicérbita - 88
+                                    Sónchus - 89 Mycélis - 90 Lactúca - 91 Crépsis - 92 Prenánthes - 93 Tólpis - 94
+                                    Hierácium
+                                </language1_description>
+                                <language2>Korbblütler / Köpfchenblütler (3/3)</language2>
+                                <language2_description>SF576
+                                    Gattungen: 61 Klette - 62 Alpenscharte - 63 Bisamdistel / Silberscharte - 64 Distel
+                                    - 65 Kratzdistel - 66 Mariendistel - 67 Eselsdistel - 68 Scharte - 69 Bergscharte -
+                                    70 Federblume - 71 Flockenblume - 72 Saflor - 73 Benediktenkraut - 74 Wegwarte - 75
+                                    Rainkohl - 76 Hainsalat / Stinkkohl - 77 Lämmersalat - 78 Ferkelkraut - 79 Löwenzahn
+                                    - 80 Bitterkraut - 81 Bocksbart - 82 Schwarzwurzel - 83 Stielsamenkraut - 84
+                                    Knorpellattich - 85 Kronenlattich - 86 Löwenzahn / Kuhblume - 87 Milchlattich - 88
+                                    Gänsedistel - 89 Mauerlattich - 90 Lattich - 91 Pippau - 92 Hasenlattich - 93
+                                    Grasnelkenhabichtskraut - 94 Habichtskraut
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Brassicáceae (= Cruciférae) (2/2)</language1>
+                                <language1_description>SF386
+                                    Gattungen: 31 Camelína - 32 Néslia - 33 Capsélla - 34 Pritzelágo - 35 Hymenólobus -
+                                    36 Hornúngia - 37 Teesdália - 38 Thláspi - 39 Aethionéma - 40 Ibéris - 41 Biscutélla
+                                    - 42 Lepídium - 43 Cardária - 44 Corónopus - 45 Subulária - 46 Conríngia - 47
+                                    Diplotáxis - 48 Brássica - 49 Sinápsis - 50 Erúca - 51 Erucástrum - 52 Coíncya - 53
+                                    Hirschféldia - 54 Cákile - 55 Rapístrum - 56 Crámbe - 57 Calepína - 58 Ráphanus
+                                </language1_description>
+                                <language2>Kreuzblütler (2/2)</language2>
+                                <language2_description>SF386
+                                    Gattungen: 31 Leindotter - 32 Finkensame - 33 Hirtentäschelkraut - 34 Gämskresse -
+                                    35 Salzkresse - 36 Felskresse - 37 Bauernsenf / Rahle - 38 Hellerkraut /
+                                    Täschelkraut - 39 Steintäschel - 40 Schleifenblume - 41 Brillenschötchen - 42 Kresse
+                                    - 43 Pfeilkresse - 44 Krähenfuß - 45 Pfriemenkresse - 46 Ackerkohl - 47 Doppelsame /
+                                    Doppelrauke - 48 Kohl - 49 Senf - 50 Senfrauke - 51 Hundsrauke - 52 Lacksenf - 53
+                                    Bastardsenf / Rempe - 54 Meersenf - 55 Rapsdotter - 56 Meerkohl - 57 Wendich - 58
+                                    Rettich / Hederich
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Poáceae (= Gramineae) (2/3)</language1>
+                                <language1_description>SF743
+                                    Gattungen: 26 Léymus - 27 Hordélymus - 28 Eleusíne - 29 Pragmítes - 30 Eragróstis -
+                                    31 Cleistógenes - 32 Spártina - 33 Cýnodon - 34 Crýpsis - 35 Sporóbolus - 36 Nárdus
+                                    - 37 Micropýrum - 38 Parápholis - 39 Pholiúrus - 40 Aíra - 41 Deschámpsia - 42
+                                    Hólcus - 43 Arrhenátherum - 44 Gaudínia - 45 Trisétum - 46 Ventenáta - 47 Danthónia
+                                    - 48 Avéna - 49 Helictotríchon - 50 Corynéphorus
+                                </language1_description>
+                                <language2>Süßgräser (2/3)</language2>
+                                <language2_description>SF743
+                                    Gattungen: 26 Strandroggen - 27 Waldgerste - 28 Wilde Fingerhirse / Wilder Korakan -
+                                    29 Schilf / Schilfrohr - 30 Liebesgras - 31 Steifhalm - 32 Schlickgras - 33
+                                    Hundszahngras - 34 Dorngras / Sumpfgras - 35 Fallsamengras / Vilfagras - 36
+                                    Borstgras - 37 Dünnschwingel - 38 Dünnschwanz - 39 Schuppenschwanz - 40
+                                    Schmielenhafer / Nelkenhafer - 41 Schmiele - 42 Honiggras - 43 Glatthafer - 44
+                                    Ährenhafer - 45 Goldhafer - 46 Grannenhafer - 47 Traubenhafer / Dreizahn - 48 Hafer
+                                    - 49 Wiesenhafer - 50 Silbergras
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                    <vocabularygroup>
+                        <number>1</number>
+                        <vocabularies>
+                            <vocabulary>
+                                <language1>Poáceae (= Gramineae) (3/3)</language1>
+                                <language1_description>SF743
+                                    Gattungen: 51 Koeléria - 52 Agróstis - 53 Áspera - 54 Calamagróstis - 55 Ammóphila -
+                                    56 X Calammóphila - 57 Polypógon - 58 Phléum - 59 Alopecúrus - 60 Mibóra - 61
+                                    Coleánthus - 62 Piptathérum - 63 Stípa - 64 Achnátherum - 65 Mílium - 66 Trágus - 67
+                                    Hieróchloë - 68 Anthoxánthum - 69 Phaláris - 70 Leérsia - 71 Digitária - 72
+                                    Echinóchloa - 73 Pánicum - 74 Setária - 75 Bothrióchloa - 76 Chrysopógon - 77
+                                    Sórghum
+                                </language1_description>
+                                <language2>Süßgräser (3/3)</language2>
+                                <language2_description>SF743
+                                    Gattungen: 51 Schillergras - 52 Straußgras - 53 Wildhalm - 54 Reitgras - 55
+                                    Strandhafer - 56 Bastardstrandhafer - 57 Bürstengras - 58 Lieschgras - 59
+                                    Fuchsschwanzgras - 60 Zwerggras - 61 Scheidenblütgras - 62 Grannenhirse - 63
+                                    Federgras - 64 Raugras - 65 Flattergras - 66 Klettengras - 67 Mariengras - 68
+                                    Ruchgras - 69 Glanzgras - 70 Reisquecke - 71 Fingerhirse - 72 Hühnerhirse - 73 Hirse
+                                    - 74 Borstenhirse - 75 Bartgras - 76 Goldbart - 77 Mohrenhirse
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Aspidiáceae</language1>
+                                <language1_description>neu eingegliedert unter Dryopteridáceae
+                                    SF178
+                                </language1_description>
+                                <language2>Schildfarngewächse</language2>
+                                <language2_description>neu eingegliedert unter Wurmfarngewächse
+                                    SF178
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Athyriáceae</language1>
+                                <language1_description>neu eingegliedert unter Woodsiáceae
+                                    SF176
+                                </language1_description>
+                                <language2>Frauenfarngewächse</language2>
+                                <language2_description>neu eingegliedert unter Wimperfarngewächse
+                                    SF176
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Athýrium</language1>
+                                <language1_description>nicht mehr unter Athyriáceae
+                                    neu eingegliedert unter Woodsiáceae
+                                    SF177
+                                </language1_description>
+                                <language2>Gattung Frauenfarn</language2>
+                                <language2_description>nicht mehr unter Frauenfarngewächse
+                                    neu eingegliedert unter Wimperfarngewächse
+                                    SF177
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Cystópteris</language1>
+                                <language1_description>nicht mehr unter Athyriáceae
+                                    neu eingegliedert unter Woodsiáceae
+                                    SF177
+                                </language1_description>
+                                <language2>Gattung Blasenfarn</language2>
+                                <language2_description>nicht mehr unter Frauenfarngewächse
+                                    neu unter Wimperfarngewächse
+                                    SF177
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Gymnocárpium</language1>
+                                <language1_description>nicht mehr unter Aspidiáceae
+                                    neu unter Woodsiáceae
+                                    SF176
+                                </language1_description>
+                                <language2>Gattung Eichenfarn / Ruprechtskraut</language2>
+                                <language2_description>nicht mehr unter Schildfarngewächse
+                                    neu unter Wimperfarngewächse
+                                    SF176
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Matteúccia</language1>
+                                <language1_description>nicht mehr unter Athyriáceae
+                                    neu eingegliedert unter Woodsiáceae
+                                    SF177
+                                </language1_description>
+                                <language2>Gattung Straußfarn</language2>
+                                <language2_description>nicht mehr unter Frauenfarngewächse
+                                    neu eingegliedert unter Wimperfarngewächse
+                                    SF177
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Polýstichum</language1>
+                                <language1_description>nicht mehr unter Aspidiáceae
+                                    neu unter Dryopteridáceae
+                                    SF178
+                                </language1_description>
+                                <language2>Gattung Schildfarn</language2>
+                                <language2_description>nicht mehr unter Schildfarngewächse
+                                    neu unter Wurmfarngewächse
+                                    SF178
+                                </language2_description>
+                            </vocabulary>
+                            <vocabulary>
+                                <language1>Gattung Woódsia</language1>
+                                <language1_description>nicht mehr unter Athyriáceae
+                                    neu eingegliedert unter Woodsiáceae
+                                    SF177
+                                </language1_description>
+                                <language2>Gattung Wimperfarn</language2>
+                                <language2_description>nicht mehr unter Frauenfarngewächse
+                                    neu eingegliedert unter Wimperfarngewächse
+                                    SF177
+                                </language2_description>
+                            </vocabulary>
+                        </vocabularies>
+                    </vocabularygroup>
+                </vocabularygroups>
+                <name>Basiswortschatz</name>
+            </wordpool>
+        </word_pools>
+    </vocabularylist>
+</vocabularylists>
