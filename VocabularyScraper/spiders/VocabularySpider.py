@@ -115,13 +115,6 @@ class VocabularySpider(scrapy.Spider):
 
         return description
 
-    def _get_vocabulary_group_name(self, vocabulary_group, category, language):
-        """
-        parses the group name
-        """
-
-        return "Gruppe"
-
     def _get_vocabulary_group_information(self, vocabulary_group, category, language):
         """
         parses the word pool of a vocabularygroup
