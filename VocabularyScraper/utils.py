@@ -62,7 +62,6 @@ def set_verbose(log):
 
     """
     log.setLevel(logging.INFO)
-    log.info('logger mode set verbose')
 
 
 #
@@ -73,4 +72,3 @@ LOG = get_logger('VocabularyScraper')
 if CONF['logging']['verbose']:
     set_verbose(LOG)
 
-LOG.info('loaded config (%d entries)' % len(CONF))
