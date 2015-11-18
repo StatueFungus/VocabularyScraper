@@ -77,7 +77,7 @@ class VocabularySpider(scrapy.Spider):
         # wordpools are stored in a ordered list to keep the order when exporting them
         word_pools = OrderedDict()
         for vocabulary_group in vocabulary_groups:
-            word_pool = self._get_word_pool(vocabulary_group)
+            word_pool = self._get_word_pool(vocabulary_group, response.meta['category'], response.meta['language'])
             vocabulary_group_item = self._get_vocabulary_group_item(vocabulary_group)
 
             if word_pool not in word_pools:
@@ -110,7 +110,7 @@ class VocabularySpider(scrapy.Spider):
 
         return description
 
-    def _get_word_pool(self, vocabulary_group):
+    def _get_word_pool(self, vocabulary_group, category, language):
         """
         parses the word pool of a vocabularygroup
         """
@@ -126,7 +126,7 @@ class VocabularySpider(scrapy.Spider):
         """
 
         group_item = VocabularyGroup()
-        group_item['number'] = 1
+        group_item['name'] = 1
         vocabularies = group_item['vocabularies'] = []
         vocabulary_group_body = self._get_vocabulary_group_body(vocabulary_group)
 

@@ -53,7 +53,7 @@ class VocabularyGroup(SortedItem):
     Represents a small group of words inside a wordpool
     """
     xml_element_name = 'vocabularygroup'
-    number = scrapy.Field()
+    name = scrapy.Field()
     vocabularies = scrapy.Field()
 
 

@@ -22,13 +22,17 @@ class XmlExportPipeline(object):
     def process_item(self, item, spider):
         category = item['category']
         language = item['language']
+        topic = item['topic']
 
-        if not category and language:
+        if not category and language and topic:
             raise DropItem("No VocabularyListItem")
 
         base_path = "output"
-        topic = item['topic']
-        file_path = '%s/%s/%s/%s.xml' % (base_path, category, language, topic)
+
+        file_path = '%s/%s/%s/%s.xml' % (base_path,
+                                         self._get_valid_dirname(category),
+                                         self._get_valid_dirname(language),
+                                         self._get_valid_dirname(topic))
 
         if not os.path.exists(os.path.dirname(file_path)):
             os.makedirs(os.path.dirname(file_path))
@@ -42,6 +46,13 @@ class XmlExportPipeline(object):
             f.close()
 
         return item
+
+    def _get_valid_dirname(self, name):
+        dirname = name;
+
+        dirname = dirname.replace("/", "-")
+
+        return dirname
 
 
 class ItemStripPipeline(object):
