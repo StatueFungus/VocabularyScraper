@@ -1,0 +1,14 @@
+{
+  "logging" : {
+    "verbose" : true
+  },
+  "output_dir" : "output",
+  "xml_root_element" : "vocabularylists",
+  "xml_item_element" : "vocabularylist",
+  "wordpool":{
+    "standard_name" : "Basiswortschatz",
+    "wordpool_regex" : {
+
+    }
+  }
+}

@@ -4,7 +4,9 @@ from collections import OrderedDict
 
 import scrapy
 
+import logging
 from VocabularyScraper.items import VocabularyList, WordPool, VocabularyGroup, Vocabulary
+from VocabularyScraper.utils import CONF as conf, LOG as logger
 
 __author__ = 'benediktsuessmann'
 
@@ -20,6 +22,7 @@ class VocabularySpider(scrapy.Spider):
         """
         parses all categories and searches a link to each
         """
+        logger.info("Start parsing ...")
 
         categories = response.xpath('//div[@id="col3_content"]/table[1]/tbody/tr[not(@class)]')
 

@@ -5,6 +5,7 @@ import scrapy
 
 from exporters import XmlVocabularyListItemExporter
 from scrapy.exceptions import DropItem
+from VocabularyScraper.utils import CONF as conf
 
 __author__ = 'benediktsuessmann'
 
@@ -20,6 +21,7 @@ class XmlExportPipeline(object):
     """
 
     def process_item(self, item, spider):
+
         category = item['category']
         language = item['language']
         topic = item['topic']
@@ -27,7 +29,7 @@ class XmlExportPipeline(object):
         if not category and language and topic:
             raise DropItem("No VocabularyListItem")
 
-        base_path = "output"
+        base_path = conf['output_dir']
 
         file_path = '%s/%s/%s/%s.xml' % (base_path,
                                          self._get_valid_dirname(category),
@@ -38,8 +40,8 @@ class XmlExportPipeline(object):
             os.makedirs(os.path.dirname(file_path))
 
         with open(file_path, 'w+b') as f:
-            self.exporter = XmlVocabularyListItemExporter(f, item_element='vocabularylist',
-                                                          root_element='vocabularylists')
+            self.exporter = XmlVocabularyListItemExporter(f, item_element=conf['xml_item_element'],
+                                                          root_element=conf['xml_root_element'])
             self.exporter.start_exporting()
             self.exporter.export_item(item)
             self.exporter.finish_exporting()
