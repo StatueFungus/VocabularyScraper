@@ -54,6 +54,7 @@ class VocabularyGroup(SortedItem):
     """
     xml_element_name = 'vocabularygroup'
     name = scrapy.Field()
+    debug_text = scrapy.Field()
     vocabularies = scrapy.Field()
 
 

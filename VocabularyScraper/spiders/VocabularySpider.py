@@ -79,9 +79,9 @@ class VocabularySpider(scrapy.Spider):
         # wordpools are stored in a ordered list to keep the order when exporting them
         word_pools = OrderedDict()
         for vocabulary_group in vocabulary_groups:
-            word_pool, group_name = self._get_vocabulary_group_information(vocabulary_group, response.meta['category'],
+            word_pool, group_name, debug_text = self._get_vocabulary_group_information(vocabulary_group, response.meta['category'],
                                                                            response.meta['language'])
-            vocabulary_group_item = self._get_vocabulary_group_item(vocabulary_group, group_name)
+            vocabulary_group_item = self._get_vocabulary_group_item(vocabulary_group, group_name, debug_text)
 
             if word_pool not in word_pools:
                 word_pools[word_pool] = WordPool()
@@ -149,7 +149,7 @@ class VocabularySpider(scrapy.Spider):
 
         word_pool_name = self._get_word_pool_name_from_indices(word_pool_name_indices, lis)
         group_name = self._get_group_name_from_indices(group_name_indices, lis)
-        return word_pool_name, group_name
+        return word_pool_name, group_name, text
 
     def _get_group_name_from_indices(self, indices, lis):
         return self._get_string_from_indices(indices, lis, conf['group_information']['standard_group_name'])
@@ -167,13 +167,14 @@ class VocabularySpider(scrapy.Spider):
 
         raise Exception("Unexpected index type")  # TODO: eigene exception
 
-    def _get_vocabulary_group_item(self, vocabulary_group, group_name):
+    def _get_vocabulary_group_item(self, vocabulary_group, group_name, debug_text):
         """
         parses and returns a vocabulary group
         """
 
         group_item = VocabularyGroup()
         group_item['name'] = group_name
+        group_item['debug_text'] = debug_text
         vocabularies = group_item['vocabularies'] = []
         vocabulary_group_body = self._get_vocabulary_group_body(vocabulary_group)
 
