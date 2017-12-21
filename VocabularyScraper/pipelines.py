@@ -50,7 +50,7 @@ class XmlExportPipeline(object):
         return item
 
     def _get_valid_dirname(self, name):
-        dirname = name;
+        dirname = name
 
         dirname = dirname.replace("/", "-")
 
